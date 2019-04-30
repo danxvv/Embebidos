@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;timersbsp_xtmrctr_selftest_example_1&apos;" deleteContents="true" description="Delete resource &apos;timersbsp_xtmrctr_selftest_example_1&apos;" element1="/timersbsp_xtmrctr_selftest_example_1" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1555991551203"/>&#x0A;<refactoring comment="Delete 2 resources" deleteContents="true" description="Delete 2 resources" element1="/timersbsp_xtmrctr_polled_example_1" element2="/timersbsp_xttcps_rtc_example_1" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1555991736553"/>
-</session>
