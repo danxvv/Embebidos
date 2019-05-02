@@ -1,0 +1,31 @@
+CONSTANT led, 01
+
+inicio:
+
+                LOAD s4, 01
+                OUTPUT s4, led  
+                CALL retardo
+                LOAD s4, 00
+                OUTPUT s4, led
+                CALL retardo
+                JUMP inicio
+
+
+
+retardo:
+
+                LOAD s2, 03
+                LOAD s1, 0D
+                LOAD s0, 40
+                JUMP software_delay
+                
+                
+                
+software_delay: 
+
+                LOAD s0, s0  
+                SUB s0, 1'd
+                SUBCY s1, 0'd
+                SUBCY s2, 0'd
+                JUMP NZ, software_delay
+                RETURN 

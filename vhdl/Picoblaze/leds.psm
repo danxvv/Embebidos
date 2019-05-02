@@ -1,0 +1,8 @@
+CONSTANT switch, 00
+CONSTANT led, 01
+
+inicio:
+
+INPUT s0,switch
+OUTPUT s0,led
+JUMP inicio
