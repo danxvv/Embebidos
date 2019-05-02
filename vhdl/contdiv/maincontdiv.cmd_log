@@ -1,0 +1,158 @@
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+vhdtdtfi -prj contdiv -o C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.vhi -module maincontdiv -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../practica1/cod.vhd -lib work ../div_tarea/main.vhd -lib work ../contador/main_cont.vhd -lib work maincontdiv.vhd 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prac2.ucf -p xc3s500e-fg320-4 maincontdiv.ngc maincontdiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o maincontdiv_map.ncd maincontdiv.ngd maincontdiv.pcf 
+par -w -intstyle ise -ol high -t 1 maincontdiv_map.ncd maincontdiv.ncd maincontdiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml maincontdiv.twx maincontdiv.ncd -o maincontdiv.twr maincontdiv.pcf -ucf prac2.ucf 
+bitgen -intstyle ise -f maincontdiv.ut maincontdiv.ncd 

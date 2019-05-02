@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/darko/OneDrive/Documentos/VH/maquina_3/tb_m3_isim_beh.exe" -prj "C:/Users/darko/OneDrive/Documentos/VH/maquina_3/tb_m3_beh.prj" "work.tb_m3" 

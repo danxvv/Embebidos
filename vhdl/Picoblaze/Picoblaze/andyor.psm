@@ -1,0 +1,46 @@
+VHDL "ROM_form.vhd", "andyor.vhd", "andyor" ;&&Para generar un archivo, en la carpeta siempre lleva la carpeta ROM
+SET_MASK 	equ 	$00	
+;&&&&&&PORT ID &&&&&&&&&&& DIRECCIONES DE ENTRADAS Y SALIDAS QUE PUEDEN TENER &&&&&
+
+led      dsout   $00   ;&&& EL SIGNO $ INDICA VALOR HEXADECIMAL	
+boton	 dsin	 $01   ;&&&Si 1 en boton and, si 0 or
+input1 dsin	 $02
+input2 dsin	 $03
+
+	
+;&&&&&&&&MAIN&&&&&&&&&
+       org	     $000 ;&&&& PERMITE QUE LA DIRECCION SE INICIE EN CERO
+
+inicio:
+
+	   load 	s2, $00
+	   load		s0, $00
+	   in		s1, boton
+	   in		s2, input1
+	   in		s3, input2
+       comp		s1, $01
+	   jump		nz, por
+	   jump		andy
+	   jump 	andy
+	
+andy:
+	   
+	   and 		s2, s3
+	   out		s2, led
+	   jump		inicio
+	
+por:
+	   or		s2, s3
+	   out		s2, led
+   	   jump		inicio
+
+;&&&&&&&&&SUBRUTINAS&&&&&&&
+retardo:
+
+
+load	 s8, $ff
+sub      s8,$01
+comp     s8, $00
+jump     nz,retardo
+ret
+

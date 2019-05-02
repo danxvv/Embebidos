@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/darko/OneDrive/Documentos/VH/maquina_3/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/darko/OneDrive/Documentos/VH/maquina_3/xst"
+elaborate
+-ifn maquina.prj
+-ifmt mixed

@@ -1,0 +1,58 @@
+
+SET_MASK 	equ 	$00	
+;Etiquetas	instrucciones 	   operandos
+salida     dsout   $00
+;Main	
+org	     $000
+
+load	 s0, $04
+out		 s0, salida
+call	 retardo_30
+call	 parpadeo
+load	 s0, $02
+out		 s0, salida
+call	 retardo_05
+load	 s0, $01
+out		 s0, salida
+call	 retardo_20
+
+
+retardo_30:
+		   load	   s1, $03
+		   sub	   s1, $01
+		   comp s1, $00
+		   jump	   z,  $03
+		   jump	   $00B
+
+retardo_05:
+		   load	   s1, $05
+		   sub	   s1, $01
+		   comp s1, $00
+		   jump	   z,  $07
+		   jump	   $010
+
+retardo_20:
+		   load	   s1, $05
+		   sub	   s1, $01
+		   comp s1, $00
+		   jump	   z,  $000
+		   jump	   $015
+		   
+parpadeo:
+		   load    s0,$04
+		   out	   s0,salida
+		   load	   s0,$00
+		   out	   s0, salida
+		load    s0,$04
+		   out	   s0,salida
+		   load	   s0,$00
+		   out	   s0, salida
+		   load    s0,$04
+		   out	   s0,salida
+		   load	   s0,$00
+		   out	   s0, salida
+		   load    s0,$04
+		   out	   s0,salida
+		   load	   s0,$00
+		   out	   s0, salida
+		   jump	   $004

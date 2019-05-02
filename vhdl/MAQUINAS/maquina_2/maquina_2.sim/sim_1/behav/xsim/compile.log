@@ -1,0 +1,20 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/osvaldomg/Documentos/VHDL/MAQUINAS DE ESTADO/maquina_2/maquina_2.srcs/sources_1/new/maq_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity maq_2
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/osvaldomg/Documentos/VHDL/MAQUINAS DE ESTADO/maquina_2/maquina_2.srcs/sim_1/new/maq_2_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity maq_2_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/osvaldomg/Documentos/VHDL/MAQUINAS DE ESTADO/maquina_2/maquina_2.srcs/sim_1/new/maq_2_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity maq_2_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/osvaldomg/Documentos/VHDL/MAQUINAS DE ESTADO/maquina_2/maquina_2.srcs/sim_1/new/maq_2_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity maq_2_tb
+ERROR: [VRFC 10-91] clk_period is not declared [/home/osvaldomg/Documentos/VHDL/MAQUINAS DE ESTADO/maquina_2/maquina_2.srcs/sim_1/new/maq_2_tb.vhd:50]
+ERROR: [VRFC 10-2123] 0 definitions of operator "*" match here [/home/osvaldomg/Documentos/VHDL/MAQUINAS DE ESTADO/maquina_2/maquina_2.srcs/sim_1/new/maq_2_tb.vhd:50]
+ERROR: [VRFC 10-91] clk_period is not declared [/home/osvaldomg/Documentos/VHDL/MAQUINAS DE ESTADO/maquina_2/maquina_2.srcs/sim_1/new/maq_2_tb.vhd:52]
+ERROR: [VRFC 10-2123] 0 definitions of operator "*" match here [/home/osvaldomg/Documentos/VHDL/MAQUINAS DE ESTADO/maquina_2/maquina_2.srcs/sim_1/new/maq_2_tb.vhd:52]
+ERROR: [VRFC 10-91] clk_period is not declared [/home/osvaldomg/Documentos/VHDL/MAQUINAS DE ESTADO/maquina_2/maquina_2.srcs/sim_1/new/maq_2_tb.vhd:54]
+ERROR: [VRFC 10-2123] 0 definitions of operator "*" match here [/home/osvaldomg/Documentos/VHDL/MAQUINAS DE ESTADO/maquina_2/maquina_2.srcs/sim_1/new/maq_2_tb.vhd:54]
+ERROR: [VRFC 10-1504] unit bench ignored due to previous errors [/home/osvaldomg/Documentos/VHDL/MAQUINAS DE ESTADO/maquina_2/maquina_2.srcs/sim_1/new/maq_2_tb.vhd:8]
+INFO: [VRFC 10-240] VHDL file /home/osvaldomg/Documentos/VHDL/MAQUINAS DE ESTADO/maquina_2/maquina_2.srcs/sim_1/new/maq_2_tb.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/osvaldomg/Documentos/VHDL/MAQUINAS DE ESTADO/maquina_2/maquina_2.srcs/sim_1/new/maq_2_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity maq_2_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/osvaldomg/Documentos/VHDL/MAQUINAS DE ESTADO/maquina_2/maquina_2.srcs/sim_1/new/maq_2_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity maq_2_tb

@@ -1,0 +1,4 @@
+Running: xsim.dir/Crucero_behav/xsimk -simmode gui -wdb Crucero_behav.wdb -simrunnum 0 -socket 40899
+Design successfully loaded
+Design Loading Memory Usage: 42808 KB (Peak: 42808 KB)
+Design Loading CPU Usage: 10 ms

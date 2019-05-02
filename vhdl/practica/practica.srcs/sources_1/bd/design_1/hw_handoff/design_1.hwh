@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Mar 21 09:43:17 2019" VIVADOVERSION="2018.3">
+
+  <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:basys3:part0:1.1" DEVICE="7a35t" NAME="design_1" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="O" NAME="lcd_rw_0" SIGIS="undef" SIGNAME="topmain_0_lcd_rw">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="topmain_0" PORT="lcd_rw"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="botondown_0" SIGIS="undef" SIGNAME="External_Ports_botondown_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="main_0" PORT="botondown"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="selector_0" SIGIS="undef" SIGNAME="External_Ports_selector_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="main_0" PORT="selector"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="botonup_0" SIGIS="undef" SIGNAME="External_Ports_botonup_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="main_0" PORT="botonup"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk_0" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="topmain_0" PORT="clk"/>
+        <CONNECTION INSTANCE="main_0" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="reset_0" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="topmain_0" PORT="reset"/>
+        <CONNECTION INSTANCE="main_0" PORT="reset"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="7" NAME="switch_0" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_switch_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="topmain_0" PORT="into"/>
+        <CONNECTION INSTANCE="main_0" PORT="switch"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="lcd_rs_0" SIGIS="undef" SIGNAME="topmain_0_lcd_rs">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="topmain_0" PORT="lcd_rs"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="lcd_e_0" SIGIS="undef" SIGNAME="topmain_0_lcd_e">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="topmain_0" PORT="lcd_e"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="7" NAME="lcd_d_0" RIGHT="0" SIGIS="undef" SIGNAME="topmain_0_lcd_d">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="topmain_0" PORT="lcd_d"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="pwm_out_0" SIGIS="undef" SIGNAME="main_0_pwm_out">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="main_0" PORT="pwm_out"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="5" FULLNAME="/main_0" HWVERSION="1.0" INSTANCE="main_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="main" VLNV="user.org:user:main:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_main_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="selector" SIGIS="undef" SIGNAME="External_Ports_selector_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="selector_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="botonup" SIGIS="undef" SIGNAME="External_Ports_botonup_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="botonup_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="botondown" SIGIS="undef" SIGNAME="External_Ports_botondown_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="botondown_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="switch" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_switch_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="switch_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="pwm_out" SIGIS="undef" SIGNAME="main_0_pwm_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="pwm_out_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="3" FULLNAME="/topmain_0" HWVERSION="1.0" INSTANCE="topmain_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="topmain" VLNV="user.org:user:topmain:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_topmain_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="rst" SIGNAME="External_Ports_reset_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="lcd_rw" SIGIS="undef" SIGNAME="topmain_0_lcd_rw">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="lcd_rw_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="into" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_switch_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="switch_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="lcd_rs" SIGIS="undef" SIGNAME="topmain_0_lcd_rs">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="lcd_rs_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="lcd_e" SIGIS="undef" SIGNAME="topmain_0_lcd_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="lcd_e_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="lcd_d" RIGHT="0" SIGIS="undef" SIGNAME="topmain_0_lcd_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="lcd_d_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

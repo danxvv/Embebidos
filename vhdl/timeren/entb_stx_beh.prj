@@ -1,0 +1,6 @@
+vhdl isim_temp "minutos.vhd"
+vhdl isim_temp "horas.vhd"
+vhdl isim_temp "divisor.vhd"
+vhdl isim_temp "contseg.vhd"
+vhdl isim_temp "main.vhd"
+vhdl isim_temp "entb.vhd"

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1549506201">
+  <File Type="POSTPLACE-PWROPT-DCP" Name="crucer_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="crucer_physopt.dcp"/>
+  <File Type="ROUTE-DCP" Name="crucer_routed.dcp"/>
+  <File Type="BG-BIN" Name="crucer.bin"/>
+  <File Type="BG-DRC" Name="crucer.drc"/>
+  <File Type="ROUTE-ERROR-DCP" Name="crucer_routed_error.dcp"/>
+  <File Type="BITSTR-SYSDEF" Name="crucer.sysdef"/>
+  <File Type="BITSTR-LTX" Name="crucer.ltx"/>
+  <File Type="BITSTR-BMM" Name="crucer_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="crucer.mmi"/>
+  <File Type="BITSTR-RBT" Name="crucer.rbt"/>
+  <File Type="REPORTS-TCL" Name="crucer_reports.tcl"/>
+  <File Type="BITSTR-NKY" Name="crucer.nky"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="crucer_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="crucer.bit"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="crucer.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="crucer_postroute_physopt.dcp"/>
+  <File Type="PWROPT-DCP" Name="crucer_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="crucer.msk"/>
+  <File Type="ROUTE-TIMING-PB" Name="crucer_timing_summary_routed.pb"/>
+  <File Type="PA-TCL" Name="crucer.tcl"/>
+  <File Type="OPT-HWDEF" Name="crucer.hwdef"/>
+  <File Type="OPT-DCP" Name="crucer_opt.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="crucer_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="crucer_placed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="crucer_routed_bb.dcp"/>
+  <File Type="BG-BGN" Name="crucer.bgn"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/crucer.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="crucer"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/pines.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

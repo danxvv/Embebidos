@@ -1,0 +1,213 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Mar 28 18:48:03 2019
+# Process ID: 3412
+# Current directory: C:/Users/darko/Dropbox/VH/ps2_rx
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8724 C:\Users\darko\Dropbox\VH\ps2_rx\ps2_rx.xpr
+# Log file: C:/Users/darko/Dropbox/VH/ps2_rx/vivado.log
+# Journal file: C:/Users/darko/Dropbox/VH/ps2_rx\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/darko/Dropbox/VH/ps2_rx/ps2_rx.xpr
+INFO: [Project 1-313] Project file moved from '/home/david/Documentos/Sistemas Embebidos/ps2_rx' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:30 . Memory (MB): peak = 655.297 ; gain = 62.754
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/darko/Dropbox/VH/ps2_rx/ps2_rx.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ps2_r' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/darko/Dropbox/VH/ps2_rx/ps2_rx.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ps2_r_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/darko/Dropbox/VH/ps2_rx/ps2_rx.srcs/sources_1/new/ps2_r.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ps2_r'
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/darko/Dropbox/VH/ps2_rx/ps2_rx.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 952d29e0ecaa45c2b8fd0b3421b5168e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ps2_r_behav xil_defaultlib.ps2_r -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ps2_r
+Built simulation snapshot ps2_r_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/darko/Dropbox/VH/ps2_rx/ps2_rx.sim/sim_1/behav/xsim/xsim.dir/ps2_r_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Mar 28 19:01:21 2019...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 684.195 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '19' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/darko/Dropbox/VH/ps2_rx/ps2_rx.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ps2_r_behav -key {Behavioral:sim_1:Functional:ps2_r} -tclbatch {ps2_r.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source ps2_r.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 704.930 ; gain = 20.734
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ps2_r_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:33 . Memory (MB): peak = 704.930 ; gain = 20.734
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+step
+Stopped at time : 0 fs : File "C:/Users/darko/Dropbox/VH/ps2_rx/ps2_rx.srcs/sources_1/new/ps2_r.vhd" Line 88
+step
+Stopped at time : 0 fs : File "C:/Users/darko/Dropbox/VH/ps2_rx/ps2_rx.srcs/sources_1/new/ps2_r.vhd" Line 61
+step
+Stopped at time : 0 fs : File "C:/Users/darko/Dropbox/VH/ps2_rx/ps2_rx.srcs/sources_1/new/ps2_r.vhd" Line 62
+add_force {/ps2_r/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+add_force {/ps2_r/reset} -radix hex {1 0ns}
+add_force {/ps2_r/rx_en} -radix hex {0 0ns}
+add_force {/ps2_r/ps2_c} -radix hex {1 0ns} {0 35000000ps} -repeat_every 70000000ps
+add_force {/ps2_r/ps2_d} -radix hex {AC 0ns}
+ERROR: [Simtcl 6-179] Couldn't add force for the following reason: Illegal value 'AC': Object size 1 does not match size of given value AC.
+add_force {/ps2_r/ps2_d} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/ps2_r/reset} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/ps2_r/rx_en} -radix hex {1 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+add_force {/ps2_r/ps2_d} -radix hex {1 0ns}
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+add_force {/ps2_r/ps2_d} -radix hex {0 0ns}
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+add_force {/ps2_r/ps2_d} -radix hex {1 0ns}
+run 100 us
+run 100 us
+run 100 us
+add_force {/ps2_r/ps2_d} -radix hex {0 0ns}
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+save_wave_config {C:/Users/darko/Dropbox/VH/ps2_rx/ps2_r_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/darko/Dropbox/VH/ps2_rx/ps2_r_behav.wcfg
+set_property xsim.view C:/Users/darko/Dropbox/VH/ps2_rx/ps2_r_behav.wcfg [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 28 19:15:31 2019...

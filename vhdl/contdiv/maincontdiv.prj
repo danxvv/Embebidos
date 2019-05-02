@@ -1,0 +1,4 @@
+vhdl work "../practica1/cod.vhd"
+vhdl work "../div_tarea/main.vhd"
+vhdl work "../contador/main_cont.vhd"
+vhdl work "maincontdiv.vhd"

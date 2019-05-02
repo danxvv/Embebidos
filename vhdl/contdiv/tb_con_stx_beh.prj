@@ -1,0 +1,5 @@
+vhdl isim_temp "../practica1/cod.vhd"
+vhdl isim_temp "../div_tarea/main.vhd"
+vhdl isim_temp "../contador/main_cont.vhd"
+vhdl isim_temp "maincontdiv.vhd"
+vhdl isim_temp "tb_con.vhd"

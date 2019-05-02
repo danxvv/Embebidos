@@ -1,0 +1,18 @@
+V3 11
+FL C:/Users/darko/OneDrive/Documentos/VH/pwm1/comp.vhd 2018/11/12.18:36:09 P.20131013
+EN work/comp 1542069381 FL C:/Users/darko/OneDrive/Documentos/VH/pwm1/comp.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/comp/Behavioral 1542069382 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/pwm1/comp.vhd EN work/comp 1542069381
+FL C:/Users/darko/OneDrive/Documentos/VH/pwm1/main.vhd 2018/11/12.09:56:22 P.20131013
+EN work/main 1542038199 FL C:/Users/darko/OneDrive/Documentos/VH/pwm1/main.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/main/Behavioral 1542038200 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/pwm1/main.vhd EN work/main 1542038199 \
+      CP comp CP mainout
+FL C:/Users/darko/OneDrive/Documentos/VH/pwm1/mainout.vhd 2018/11/12.09:45:31 P.20131013
+EN work/mainout 1542038197 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/pwm1/mainout.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/mainout/Behavioral 1542038198 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/pwm1/mainout.vhd EN work/mainout 1542038197

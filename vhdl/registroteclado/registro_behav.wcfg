@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="registro_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="registro" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1080266383fs"></ZoomStartTime>
+      <ZoomEndTime time="1343946724fs"></ZoomEndTime>
+      <Cursor1Time time="1300000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="130"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject type="logic" fp_name="/registro/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/registro/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/registro/wen">
+      <obj_property name="ElementShortName">wen</obj_property>
+      <obj_property name="ObjectShortName">wen</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/registro/wdata">
+      <obj_property name="ElementShortName">wdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/registro/array_reg">
+      <obj_property name="ElementShortName">array_reg[3:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">array_reg[3:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/registro/array_next">
+      <obj_property name="ElementShortName">array_next[3:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">array_next[3:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/registro/enable">
+      <obj_property name="ElementShortName">enable[3:0]</obj_property>
+      <obj_property name="ObjectShortName">enable[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/registro/m_reg">
+      <obj_property name="ElementShortName">m_reg</obj_property>
+      <obj_property name="ObjectShortName">m_reg</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/registro/m_next">
+      <obj_property name="ElementShortName">m_next</obj_property>
+      <obj_property name="ObjectShortName">m_next</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/registro/reset_sw">
+      <obj_property name="ElementShortName">reset_sw</obj_property>
+      <obj_property name="ObjectShortName">reset_sw</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/registro/correcto">
+      <obj_property name="ElementShortName">correcto</obj_property>
+      <obj_property name="ObjectShortName">correcto</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/registro/incorrecto">
+      <obj_property name="ElementShortName">incorrecto</obj_property>
+      <obj_property name="ObjectShortName">incorrecto</obj_property>
+   </wvobject>
+</wave_config>

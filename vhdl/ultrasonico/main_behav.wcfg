@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="main_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="main" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="143015328940400fs"></ZoomEndTime>
+      <Cursor1Time time="61772423278000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject type="logic" fp_name="/main/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/main/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/main/echo">
+      <obj_property name="ElementShortName">echo</obj_property>
+      <obj_property name="ObjectShortName">echo</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/main/cent">
+      <obj_property name="ElementShortName">cent[9:0]</obj_property>
+      <obj_property name="ObjectShortName">cent[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/main/trigger">
+      <obj_property name="ElementShortName">trigger</obj_property>
+      <obj_property name="ObjectShortName">trigger</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/main/contador">
+      <obj_property name="ElementShortName">contador[22:0]</obj_property>
+      <obj_property name="ObjectShortName">contador[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/main/contadorecho">
+      <obj_property name="ElementShortName">contadorecho[22:0]</obj_property>
+      <obj_property name="ObjectShortName">contadorecho[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/main/escala">
+      <obj_property name="ElementShortName">escala[22:0]</obj_property>
+      <obj_property name="ObjectShortName">escala[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/main/enable">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/main/centimetros">
+      <obj_property name="ElementShortName">centimetros</obj_property>
+      <obj_property name="ObjectShortName">centimetros</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/main/micross">
+      <obj_property name="ElementShortName">micross</obj_property>
+      <obj_property name="ObjectShortName">micross</obj_property>
+   </wvobject>
+</wave_config>

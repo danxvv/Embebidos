@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/Dropbox/VH/practica1/cod.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity cod
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/Dropbox/VH/div_tarea/main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity main
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/Dropbox/VH/contador/main_cont.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity main_cont
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/Dropbox/VH/contdiv/maincontdiv.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity maincontdiv
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/Dropbox/VH/contdiv/tb_con.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_con

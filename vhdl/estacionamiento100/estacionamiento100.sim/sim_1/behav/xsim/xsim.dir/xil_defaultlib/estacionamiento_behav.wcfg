@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="estacionamiento_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="estacionamiento" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="369975334fs"></ZoomStartTime>
+      <ZoomEndTime time="370004934fs"></ZoomEndTime>
+      <Cursor1Time time="370000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="102"></NameColumnWidth>
+      <ValueColumnWidth column_width="119"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject type="logic" fp_name="/estacionamiento/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/estacionamiento/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/estacionamiento/a">
+      <obj_property name="ElementShortName">a</obj_property>
+      <obj_property name="ObjectShortName">a</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/estacionamiento/b">
+      <obj_property name="ElementShortName">b</obj_property>
+      <obj_property name="ObjectShortName">b</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/estacionamiento/s_reg">
+      <obj_property name="ElementShortName">s_reg</obj_property>
+      <obj_property name="ObjectShortName">s_reg</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/estacionamiento/s_next">
+      <obj_property name="ElementShortName">s_next</obj_property>
+      <obj_property name="ObjectShortName">s_next</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/estacionamiento/c_reg">
+      <obj_property name="ElementShortName">c_reg[5:0]</obj_property>
+      <obj_property name="ObjectShortName">c_reg[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/estacionamiento/c_next">
+      <obj_property name="ElementShortName">c_next[5:0]</obj_property>
+      <obj_property name="ObjectShortName">c_next[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/estacionamiento/puerta">
+      <obj_property name="ElementShortName">puerta</obj_property>
+      <obj_property name="ObjectShortName">puerta</obj_property>
+   </wvobject>
+</wave_config>

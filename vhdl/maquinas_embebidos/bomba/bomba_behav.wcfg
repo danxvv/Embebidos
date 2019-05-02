@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="bomba_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="bomba" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="80000000fs"></ZoomStartTime>
+      <ZoomEndTime time="380000001fs"></ZoomEndTime>
+      <Cursor1Time time="330000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="102"></NameColumnWidth>
+      <ValueColumnWidth column_width="107"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject type="logic" fp_name="/bomba/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/bomba/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/bomba/sw">
+      <obj_property name="ElementShortName">sw</obj_property>
+      <obj_property name="ObjectShortName">sw</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/bomba/SV">
+      <obj_property name="ElementShortName">SV</obj_property>
+      <obj_property name="ObjectShortName">SV</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/bomba/Sll1">
+      <obj_property name="ElementShortName">Sll1</obj_property>
+      <obj_property name="ObjectShortName">Sll1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/bomba/SR">
+      <obj_property name="ElementShortName">SR</obj_property>
+      <obj_property name="ObjectShortName">SR</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/bomba/vacio">
+      <obj_property name="ElementShortName">vacio</obj_property>
+      <obj_property name="ObjectShortName">vacio</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/bomba/llenado">
+      <obj_property name="ElementShortName">llenado</obj_property>
+      <obj_property name="ObjectShortName">llenado</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/bomba/lleno">
+      <obj_property name="ElementShortName">lleno</obj_property>
+      <obj_property name="ObjectShortName">lleno</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/bomba/rebose">
+      <obj_property name="ElementShortName">rebose</obj_property>
+      <obj_property name="ObjectShortName">rebose</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/bomba/alarma">
+      <obj_property name="ElementShortName">alarma</obj_property>
+      <obj_property name="ObjectShortName">alarma</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/bomba/b1">
+      <obj_property name="ElementShortName">b1</obj_property>
+      <obj_property name="ObjectShortName">b1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/bomba/b2">
+      <obj_property name="ElementShortName">b2</obj_property>
+      <obj_property name="ObjectShortName">b2</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/bomba/s_reg">
+      <obj_property name="ElementShortName">s_reg</obj_property>
+      <obj_property name="ObjectShortName">s_reg</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/bomba/s_next">
+      <obj_property name="ElementShortName">s_next</obj_property>
+      <obj_property name="ObjectShortName">s_next</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/bomba/c_reg">
+      <obj_property name="ElementShortName">c_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c_reg[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/bomba/c_next">
+      <obj_property name="ElementShortName">c_next[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c_next[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

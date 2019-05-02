@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ps2_r_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ps2_r" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="7400031666667fs"></ZoomStartTime>
+      <ZoomEndTime time="8600221666667fs"></ZoomEndTime>
+      <Cursor1Time time="8400190000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/ps2_r/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ps2_r/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ps2_r/ps2_d" type="logic">
+      <obj_property name="ElementShortName">ps2_d</obj_property>
+      <obj_property name="ObjectShortName">ps2_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ps2_r/ps2_c" type="logic">
+      <obj_property name="ElementShortName">ps2_c</obj_property>
+      <obj_property name="ObjectShortName">ps2_c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ps2_r/rx_en" type="logic">
+      <obj_property name="ElementShortName">rx_en</obj_property>
+      <obj_property name="ObjectShortName">rx_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ps2_r/rx_done_tick" type="logic">
+      <obj_property name="ElementShortName">rx_done_tick</obj_property>
+      <obj_property name="ObjectShortName">rx_done_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ps2_r/dout" type="array">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ps2_r/state_reg" type="other">
+      <obj_property name="ElementShortName">state_reg</obj_property>
+      <obj_property name="ObjectShortName">state_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ps2_r/state_next" type="other">
+      <obj_property name="ElementShortName">state_next</obj_property>
+      <obj_property name="ObjectShortName">state_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ps2_r/filter_reg" type="array">
+      <obj_property name="ElementShortName">filter_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ps2_r/filter_next" type="array">
+      <obj_property name="ElementShortName">filter_next[7:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_next[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ps2_r/f_ps2_c_reg" type="logic">
+      <obj_property name="ElementShortName">f_ps2_c_reg</obj_property>
+      <obj_property name="ObjectShortName">f_ps2_c_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ps2_r/f_ps2_c_next" type="logic">
+      <obj_property name="ElementShortName">f_ps2_c_next</obj_property>
+      <obj_property name="ObjectShortName">f_ps2_c_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ps2_r/b_reg" type="array">
+      <obj_property name="ElementShortName">b_reg[10:0]</obj_property>
+      <obj_property name="ObjectShortName">b_reg[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ps2_r/b_next" type="array">
+      <obj_property name="ElementShortName">b_next[10:0]</obj_property>
+      <obj_property name="ObjectShortName">b_next[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ps2_r/n_reg" type="array">
+      <obj_property name="ElementShortName">n_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">n_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ps2_r/n_next" type="array">
+      <obj_property name="ElementShortName">n_next[3:0]</obj_property>
+      <obj_property name="ObjectShortName">n_next[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ps2_r/fall_edge" type="logic">
+      <obj_property name="ElementShortName">fall_edge</obj_property>
+      <obj_property name="ObjectShortName">fall_edge</obj_property>
+   </wvobject>
+</wave_config>

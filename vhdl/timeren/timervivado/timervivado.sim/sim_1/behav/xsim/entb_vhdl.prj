@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../timervivado.srcs/sources_1/imports/timeren/minutos.vhd" \
+"../../../../timervivado.srcs/sources_1/imports/timeren/horas.vhd" \
+"../../../../timervivado.srcs/sources_1/imports/timeren/divisor.vhd" \
+"../../../../timervivado.srcs/sources_1/imports/timeren/contseg.vhd" \
+"../../../../timervivado.srcs/sources_1/imports/timeren/main.vhd" \
+"../../../../timervivado.srcs/sim_1/imports/timeren/tb_contseg.vhd" \
+"../../../../timervivado.srcs/sim_1/imports/timeren/tb_main.vhd" \
+"../../../../timervivado.srcs/sim_1/imports/timeren/entb.vhd" \
+
+# Do not sort compile order
+nosort

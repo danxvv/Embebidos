@@ -1,0 +1,62 @@
+
+SET_MASK 	equ 	$00	
+;Etiquetas	instrucciones 	   operandos
+
+salidas     dsout   $00 ;0,B1,B2,Alarma,Rebose,lleno,Llenandose,Vacio
+entradas    dsin	$01 ;0,0,0,0,0,SR,SLL,SV
+;Main	
+org	     $000
+
+Vacio:
+
+in		 s0, entradas ;Lee una entrada
+comp	 s0, $02
+jump	 z, Alarma
+comp	 s0, $04
+jump	 z, Alarma
+comp	 s0, $05
+jump	 z, Alarma
+comp     s0, $00
+jump     nz, llenandose
+load     s1, $61
+out		 s1, salidas
+
+Llenandose:
+load	   s1, $00
+in 		   s0, entradas
+comp	   s0, $01
+jump 	   nz, lleno
+load	   s1, $62
+out		   s1, salidas
+
+
+Lleno:
+load  s1, $00
+in	  s0, entradas
+comp  s0, $03 ;Preguntar por estado de lleno
+jump  nz, rebose
+load  s1, $24
+out	  s1, salidas ;Se activa la bomba1
+
+Rebose:
+load   s1, $00
+in	   s0, entradas	   ;Sonda de rebose
+comp   s0, $07
+jump   nz, Vacio
+load   s1, $08
+out	   s1, salidas	
+jump   Vacio
+
+Alarma:
+load   s1, $00
+in 	   s0, entradas
+comp   s0, $00
+jump   z, Vacio
+load   s1, $10
+out	   s1, salidas
+jump   Vacio
+
+
+
+
+

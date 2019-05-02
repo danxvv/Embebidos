@@ -1,0 +1,33 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port lcd_rs_0 -pg 1 -y 80 -defaultsOSRD
+preplace port pwm_out_0 -pg 1 -y 270 -defaultsOSRD
+preplace port lcd_e_0 -pg 1 -y 100 -defaultsOSRD
+preplace port lcd_rw_0 -pg 1 -y 60 -defaultsOSRD
+preplace port clk_0 -pg 1 -y 70 -defaultsOSRD
+preplace port botonup_0 -pg 1 -y 280 -defaultsOSRD
+preplace port botondown_0 -pg 1 -y 300 -defaultsOSRD
+preplace port reset_0 -pg 1 -y 90 -defaultsOSRD
+preplace port selector_0 -pg 1 -y 260 -defaultsOSRD
+preplace portBus switch_0 -pg 1 -y 110 -defaultsOSRD
+preplace portBus lcd_d_0 -pg 1 -y 120 -defaultsOSRD
+preplace inst main_0 -pg 1 -lvl 1 -y 270 -defaultsOSRD
+preplace inst topmain_0 -pg 1 -lvl 1 -y 90 -defaultsOSRD
+preplace netloc clk_0_1 1 0 1 40
+preplace netloc topmain_0_lcd_rs 1 1 1 NJ
+preplace netloc topmain_0_lcd_d 1 1 1 NJ
+preplace netloc switch_0_1 1 0 1 20
+preplace netloc topmain_0_lcd_e 1 1 1 NJ
+preplace netloc botonup_0_1 1 0 1 NJ
+preplace netloc botondown_0_1 1 0 1 NJ
+preplace netloc selector_0_1 1 0 1 NJ
+preplace netloc topmain_0_lcd_rw 1 1 1 NJ
+preplace netloc main_0_pwm_out 1 1 1 N
+preplace netloc reset_0_1 1 0 1 30
+levelinfo -pg 1 0 160 300 -top 0 -bot 380
+"
+}
+0

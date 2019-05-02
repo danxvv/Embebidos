@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Nov 15 19:36:16 2018
+# Process ID: 9816
+# Current directory: C:/Users/darko/OneDrive/Documentos/VH/VIVADO/reloj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8124 C:\Users\darko\OneDrive\Documentos\VH\VIVADO\reloj\reloj.xpr
+# Log file: C:/Users/darko/OneDrive/Documentos/VH/VIVADO/reloj/vivado.log
+# Journal file: C:/Users/darko/OneDrive/Documentos/VH/VIVADO/reloj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/darko/OneDrive/Documentos/VH/VIVADO/reloj/reloj.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:23 . Memory (MB): peak = 784.328 ; gain = 78.266
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 15 19:42:27 2018...

@@ -1,0 +1,1 @@
+vhdtdtfi -prj contdiv -o C:/Users/darko/OneDrive/Documentos/VH/contdiv/cod.vhi -module cod -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../practica1/cod.vhd 

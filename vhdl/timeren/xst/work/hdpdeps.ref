@@ -1,0 +1,43 @@
+V3 26
+FL C:/Users/darko/OneDrive/Documentos/VH/timer/contmin.vhd 2018/10/17.09:57:49 P.20131013
+EN work/contmin 0 FL C:/Users/darko/OneDrive/Documentos/VH/timer/contmin.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/contmin/Behavioral 0 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/timer/contmin.vhd EN work/contmin 0
+FL C:/Users/darko/OneDrive/Documentos/VH/timer/contseg.vhd 2018/10/17.09:40:09 P.20131013
+FL C:/Users/darko/OneDrive/Documentos/VH/timer/divisor.vhd 2018/10/17.10:50:35 P.20131013
+FL C:/Users/darko/OneDrive/Documentos/VH/timer/main.vhd 2018/10/17.10:49:26 P.20131013
+FL C:/Users/darko/OneDrive/Documentos/VH/timer/minutos.vhd 2018/10/17.10:44:37 P.20131013
+FL C:/Users/darko/OneDrive/Documentos/VH/timeren/contseg.vhd 2018/11/09.16:49:05 P.20131013
+EN work/contseg 1541834265 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/timeren/contseg.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/contseg/Behavioral 1541834266 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/timeren/contseg.vhd \
+      EN work/contseg 1541834265
+FL C:/Users/darko/OneDrive/Documentos/VH/timeren/divisor.vhd 2018/11/09.19:13:10 P.20131013
+EN work/divisor 1541834263 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/timeren/divisor.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/divisor/Behavioral 1541834264 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/timeren/divisor.vhd \
+      EN work/divisor 1541834263
+FL C:/Users/darko/OneDrive/Documentos/VH/timeren/horas.vhd 2018/11/09.19:07:19 P.20131013
+EN work/horas 1541834269 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/timeren/horas.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/horas/Behavioral 1541834270 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/timeren/horas.vhd EN work/horas 1541834269
+FL C:/Users/darko/OneDrive/Documentos/VH/timeren/main.vhd 2018/11/09.19:10:06 P.20131013
+EN work/main 1541834271 FL C:/Users/darko/OneDrive/Documentos/VH/timeren/main.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/main/Behavioral 1541834272 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/timeren/main.vhd EN work/main 1541834271 \
+      CP divisor CP contseg CP minutos CP horas
+FL C:/Users/darko/OneDrive/Documentos/VH/timeren/minutos.vhd 2018/11/09.19:06:55 P.20131013
+EN work/minutos 1541834267 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/timeren/minutos.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/minutos/Behavioral 1541834268 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/timeren/minutos.vhd \
+      EN work/minutos 1541834267

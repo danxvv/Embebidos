@@ -1,0 +1,376 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.64 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.64 secs
+ 
+--> Reading design: main.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "main.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "main"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : main
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/darko/OneDrive/Documentos/VH/pwm1/comp.vhd" in Library work.
+Architecture behavioral of Entity comp is up to date.
+Compiling vhdl file "C:/Users/darko/OneDrive/Documentos/VH/pwm1/mainout.vhd" in Library work.
+Entity <mainout> compiled.
+Entity <mainout> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/darko/OneDrive/Documentos/VH/pwm1/main.vhd" in Library work.
+Entity <main> compiled.
+Entity <main> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <main> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <comp> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mainout> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <main> in library <work> (Architecture <Behavioral>).
+Entity <main> analyzed. Unit <main> generated.
+
+Analyzing Entity <comp> in library <work> (Architecture <behavioral>).
+Entity <comp> analyzed. Unit <comp> generated.
+
+Analyzing Entity <mainout> in library <work> (Architecture <behavioral>).
+Entity <mainout> analyzed. Unit <mainout> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <comp>.
+    Related source file is "C:/Users/darko/OneDrive/Documentos/VH/pwm1/comp.vhd".
+Unit <comp> synthesized.
+
+
+Synthesizing Unit <mainout>.
+    Related source file is "C:/Users/darko/OneDrive/Documentos/VH/pwm1/mainout.vhd".
+    Found 8-bit comparator less for signal <pwm_out$cmp_lt0000> created at line 51.
+    Found 8-bit up counter for signal <pwm_reg>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <mainout> synthesized.
+
+
+Synthesizing Unit <main>.
+    Related source file is "C:/Users/darko/OneDrive/Documentos/VH/pwm1/main.vhd".
+Unit <main> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 8-bit up counter                                      : 1
+# Comparators                                          : 1
+ 8-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 8-bit up counter                                      : 1
+# Comparators                                          : 1
+ 8-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <main> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block main, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : main.ngr
+Top Level Output File Name         : main
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 11
+
+Cell Usage :
+# BELS                             : 27
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 7
+#      LUT3                        : 1
+#      LUT4                        : 1
+#      MUXCY                       : 7
+#      VCC                         : 1
+#      XORCY                       : 8
+# FlipFlops/Latches                : 8
+#      FDC                         : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 2
+#      IBUF                        : 1
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                        5  out of   4656     0%  
+ Number of Slice Flip Flops:              8  out of   9312     0%  
+ Number of 4 input LUTs:                 10  out of   9312     0%  
+ Number of IOs:                          11
+ Number of bonded IOBs:                   3  out of    232     1%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 8     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 8     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 3.761ns (Maximum Frequency: 265.887MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.737ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.761ns (frequency: 265.887MHz)
+  Total number of paths / destination ports: 36 / 8
+-------------------------------------------------------------------------
+Delay:               3.761ns (Levels of Logic = 8)
+  Source:            Inst_mainout/pwm_reg_1 (FF)
+  Destination:       Inst_mainout/pwm_reg_7 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: Inst_mainout/pwm_reg_1 to Inst_mainout/pwm_reg_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.591   0.595  Inst_mainout/pwm_reg_1 (Inst_mainout/pwm_reg_1)
+     LUT1:I0->O            1   0.704   0.000  Inst_mainout/Mcount_pwm_reg_cy<1>_rt (Inst_mainout/Mcount_pwm_reg_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  Inst_mainout/Mcount_pwm_reg_cy<1> (Inst_mainout/Mcount_pwm_reg_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_mainout/Mcount_pwm_reg_cy<2> (Inst_mainout/Mcount_pwm_reg_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_mainout/Mcount_pwm_reg_cy<3> (Inst_mainout/Mcount_pwm_reg_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_mainout/Mcount_pwm_reg_cy<4> (Inst_mainout/Mcount_pwm_reg_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_mainout/Mcount_pwm_reg_cy<5> (Inst_mainout/Mcount_pwm_reg_cy<5>)
+     MUXCY:CI->O           0   0.059   0.000  Inst_mainout/Mcount_pwm_reg_cy<6> (Inst_mainout/Mcount_pwm_reg_cy<6>)
+     XORCY:CI->O           1   0.804   0.000  Inst_mainout/Mcount_pwm_reg_xor<7> (Result<7>)
+     FDC:D                     0.308          Inst_mainout/pwm_reg_7
+    ----------------------------------------
+    Total                      3.761ns (3.166ns logic, 0.595ns route)
+                                       (84.2% logic, 15.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 6 / 1
+-------------------------------------------------------------------------
+Offset:              6.737ns (Levels of Logic = 3)
+  Source:            Inst_mainout/pwm_reg_2 (FF)
+  Destination:       p_out (PAD)
+  Source Clock:      clk rising
+
+  Data Path: Inst_mainout/pwm_reg_2 to p_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.622  Inst_mainout/pwm_reg_2 (Inst_mainout/pwm_reg_2)
+     LUT3:I0->O            1   0.704   0.424  p_out1_SW0 (N11)
+     LUT4:I3->O            1   0.704   0.420  p_out1 (p_out_OBUF)
+     OBUF:I->O                 3.272          p_out_OBUF (p_out)
+    ----------------------------------------
+    Total                      6.737ns (5.271ns logic, 1.466ns route)
+                                       (78.2% logic, 21.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 33.00 secs
+Total CPU time to Xst completion: 32.60 secs
+ 
+--> 
+
+Total memory usage is 4565348 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="/home/daniel/Documents/VHDL/zynqtest/zynqtest.sdk/bootloadergpio/bootimage" key="zynq_flash_files_selection"/>
+	<item value="/home/daniel/Documents/VHDL/zynqtest/zynqtest.sdk/bootloadergpio/bootimage" key="last_stored_selection"/>
+</section>

@@ -1,0 +1,115 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x6887D97290370598",
+      "device": "xc7a35tcpg236-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "estacionamiento_0": ""
+    },
+    "ports": {
+      "clk_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "reset_0",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "design_1_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "reset_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "a_0": {
+        "direction": "I"
+      },
+      "b_0": {
+        "direction": "I"
+      },
+      "puerta_0": {
+        "direction": "O"
+      },
+      "led_0": {
+        "direction": "O",
+        "left": "5",
+        "right": "0"
+      }
+    },
+    "components": {
+      "estacionamiento_0": {
+        "vlnv": "xilinx.com:user:estacionamiento:1.0",
+        "xci_name": "design_1_estacionamiento_0_0"
+      }
+    },
+    "nets": {
+      "clk_0_1": {
+        "ports": [
+          "clk_0",
+          "estacionamiento_0/clk"
+        ]
+      },
+      "reset_0_1": {
+        "ports": [
+          "reset_0",
+          "estacionamiento_0/reset"
+        ]
+      },
+      "a_0_1": {
+        "ports": [
+          "a_0",
+          "estacionamiento_0/a"
+        ]
+      },
+      "b_0_1": {
+        "ports": [
+          "b_0",
+          "estacionamiento_0/b"
+        ]
+      },
+      "estacionamiento_0_puerta": {
+        "ports": [
+          "estacionamiento_0/puerta",
+          "puerta_0"
+        ]
+      },
+      "estacionamiento_0_led": {
+        "ports": [
+          "estacionamiento_0/led",
+          "led_0"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+Running: xsim.dir/estacionamiento_behav/xsimk -simmode gui -wdb estacionamiento_behav.wdb -simrunnum 0 -socket 46211
+Design successfully loaded
+Design Loading Memory Usage: 42808 KB (Peak: 42808 KB)
+Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 124544 KB (Peak: 190080 KB)
+Simulation CPU Usage: 150 ms

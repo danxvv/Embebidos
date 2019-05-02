@@ -1,0 +1,6 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]/home/daniel/Documents/VHDL/zynqnuevo/zynqnuevo.sdk/bootloader/Debug/bootloader.elf
+	/home/daniel/Documents/VHDL/zynqnuevo/zynqnuevo.sdk/zynqprueba_wrapper_hw_platform_0/zynqprueba_wrapper.bit
+}

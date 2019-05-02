@@ -1,0 +1,8 @@
+V3 3
+FL C:/Users/darko/OneDrive/Documentos/VH/contador/main_cont.vhd 2018/10/08.09:23:40 P.20131013
+EN work/main_cont 1539008628 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/contador/main_cont.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/main_cont/Behavioral 1539008629 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/contador/main_cont.vhd \
+      EN work/main_cont 1539008628

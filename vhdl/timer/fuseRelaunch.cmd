@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/darko/OneDrive/Documentos/VH/timer/tb_main_isim_beh.exe" -prj "C:/Users/darko/OneDrive/Documentos/VH/timer/tb_main_beh.prj" "work.tb_main" 

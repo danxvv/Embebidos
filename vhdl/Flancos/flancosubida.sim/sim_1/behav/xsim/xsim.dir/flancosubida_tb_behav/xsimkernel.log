@@ -1,0 +1,7 @@
+Running: xsim.dir/flancosubida_tb_behav/xsimk -simmode gui -wdb flancosubida_tb_behav.wdb -simrunnum 0 -socket 54975
+Design successfully loaded
+Design Loading Memory Usage: 42368 KB (Peak: 42368 KB)
+Design Loading CPU Usage: 40 ms
+Simulation completed
+Simulation Memory Usage: 125088 KB (Peak: 189640 KB)
+Simulation CPU Usage: 150 ms

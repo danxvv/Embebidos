@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/darko/OneDrive/Documentos/VH/timer/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/darko/OneDrive/Documentos/VH/timer/xst"
+elaborate
+-ifn minutos.prj
+-ifmt mixed

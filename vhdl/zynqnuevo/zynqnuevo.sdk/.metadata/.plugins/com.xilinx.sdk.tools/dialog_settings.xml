@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="zynqprueba_wrapper_hw_platform_0" key="programflash.hwplatform"/>
+	<item value="false" key="zynqprueba_wrapper_hw_platform_0-blankCheck"/>
+	<item value="/home/daniel/Documents/VHDL/zynqnuevo/zynqnuevo.sdk/bootloader/bootimage/BOOT.bin" key="zynqprueba_wrapper_hw_platform_0-imgFile"/>
+	<item value="" key="zynqprueba_wrapper_hw_platform_0-offSet"/>
+	<item value="/home/daniel/Documents/VHDL/zynqnuevo/zynqnuevo.sdk/bootloader/Debug/bootloader.elf" key="zynqprueba_wrapper_hw_platform_0-fsblFile"/>
+	<item value="false" key="zynqprueba_wrapper_hw_platform_0-verifyFlash"/>
+	<item value="qspi-x1-single" key="zynqprueba_wrapper_hw_platform_0-flashType"/>
+	<item value="Auto Detect" key="zynqprueba_wrapper_hw_platform_0-device"/>
+	<item value="Local" key="zynqprueba_wrapper_hw_platform_0-target"/>
+</section>

@@ -1,0 +1,1 @@
+vhdtdtfi -prj contdiv -o C:/Users/darko/OneDrive/Documentos/VH/contdiv/main_cont.vhi -module main_cont -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../contador/main_cont.vhd 

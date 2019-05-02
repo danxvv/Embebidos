@@ -1,0 +1,23 @@
+10:05:39 **** Build of configuration Debug for project timersbsp_xdevcfg_reg_readback_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xdevcfg_reg_readback_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xdevcfg_reg_readback_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../timersbsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xdevcfg_reg_readback_example.d" -MT"src/xdevcfg_reg_readback_example.o" -o "src/xdevcfg_reg_readback_example.o" "../src/xdevcfg_reg_readback_example.c"
+Finished building: ../src/xdevcfg_reg_readback_example.c
+ 
+Building target: timersbsp_xdevcfg_reg_readback_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../timersbsp/ps7_cortexa9_0/lib -o "timersbsp_xdevcfg_reg_readback_example_1.elf"  ./src/xdevcfg_reg_readback_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lmetal,-lopen_amp,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lmetal,-lgcc,-lc,--end-group
+Finished building target: timersbsp_xdevcfg_reg_readback_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size timersbsp_xdevcfg_reg_readback_example_1.elf  |tee "timersbsp_xdevcfg_reg_readback_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32512	   1160	  22600	  56272	   dbd0	timersbsp_xdevcfg_reg_readback_example_1.elf
+Finished building: timersbsp_xdevcfg_reg_readback_example_1.elf.size
+ 
+
+10:05:41 Build Finished (took 1s.766ms)
+

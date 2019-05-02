@@ -1,0 +1,13 @@
+
+SET_MASK 	equ 	$00	
+;Etiquetas	instrucciones 	   operandos
+salida     dsout   $00
+entrada	   dsin	   $01
+;Main	
+org	     $000
+inicio:
+
+in	   s0,entrada
+xor	   s0, $ff
+out	   s0,salida
+jump   inicio

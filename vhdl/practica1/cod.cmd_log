@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/practica1/cod.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/practica1/cod.syr" 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/practica1/cod.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/practica1/cod.syr" 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/practica1/cod.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/practica1/cod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s500e-fg320-4 cod.ngc cod.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o cod_map.ncd cod.ngd cod.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s500e-fg320-4 cod.ngc cod.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o cod_map.ncd cod.ngd cod.pcf 
+par -w -intstyle ise -ol high -t 1 cod_map.ncd cod.ncd cod.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cod.twx cod.ncd -o cod.twr cod.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f cod.ut cod.ncd 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/practica1/cod.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/practica1/cod.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s500e-fg320-4 cod.ngc cod.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o cod_map.ncd cod.ngd cod.pcf 
+par -w -intstyle ise -ol high -t 1 cod_map.ncd cod.ncd cod.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cod.twx cod.ncd -o cod.twr cod.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f cod.ut cod.ncd 

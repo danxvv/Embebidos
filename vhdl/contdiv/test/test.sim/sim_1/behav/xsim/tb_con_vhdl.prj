@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../practica1/cod.vhd" \
+"../../../../../../div_tarea/main.vhd" \
+"../../../../../../contador/main_cont.vhd" \
+"../../../../../maincontdiv.vhd" \
+"../../../../../tb_con.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/Dropbox/VH/flancosubida/flancosubida.srcs/sources_1/new/flancosubida.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flancosubida
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/Dropbox/VH/flancosubida/flancosubida.srcs/sources_1/new/flancosubida.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flancosubida
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/Dropbox/VH/flancosubida/flancosubida.srcs/sources_1/new/flancosubida.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flancosubida
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/Dropbox/VH/Flancos/flancosubida.srcs/sources_1/new/flancosubida.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flancosubida
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/Dropbox/VH/Flancos/flancosubida.srcs/sim_1/new/tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flancosubida_tb

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="registrodatos_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="registrodatos" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="21468480fs"></ZoomStartTime>
+      <ZoomEndTime time="285468481fs"></ZoomEndTime>
+      <Cursor1Time time="28815000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="126"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject type="logic" fp_name="/registrodatos/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/registrodatos/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/registrodatos/wen">
+      <obj_property name="ElementShortName">wen</obj_property>
+      <obj_property name="ObjectShortName">wen</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/registrodatos/waddr">
+      <obj_property name="ElementShortName">waddr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/registrodatos/raddr">
+      <obj_property name="ElementShortName">raddr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/registrodatos/wdata">
+      <obj_property name="ElementShortName">wdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/registrodatos/rdata">
+      <obj_property name="ElementShortName">rdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/registrodatos/array_reg">
+      <obj_property name="ElementShortName">array_reg[3:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">array_reg[3:0][7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/registrodatos/array_next">
+      <obj_property name="ElementShortName">array_next[3:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">array_next[3:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/registrodatos/enable">
+      <obj_property name="ElementShortName">enable[3:0]</obj_property>
+      <obj_property name="ObjectShortName">enable[3:0]</obj_property>
+   </wvobject>
+</wave_config>

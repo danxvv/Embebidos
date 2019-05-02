@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/pwm1/mainout.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/pwm1/mainout.syr" 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/pwm1/mainout.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/pwm1/mainout.syr" 
+vhdtdtfi -prj pwm1 -o C:/Users/darko/OneDrive/Documentos/VH/pwm1/mainout.vhi -module mainout -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work mainout.vhd 

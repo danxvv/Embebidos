@@ -1,0 +1,1 @@
+-wto "720606a887034a7b9c2fa1d113e6223f" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "crucer_behav" "xil_defaultlib.crucer" -log "elaborate.log" 

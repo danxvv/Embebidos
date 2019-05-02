@@ -1,0 +1,82 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Thu Mar 21 09:44:08 2019
+| Host         : daniel-X510UAR running 64-bit Ubuntu 18.04.2 LTS
+| Command      : report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt
+| Design       : design_1_wrapper
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    13 |
+| Unused register locations in slices containing registers |    24 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|      6 |            1 |
+|      8 |            5 |
+|     11 |            1 |
+|     12 |            2 |
+|    16+ |            3 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              69 |           23 |
+| No           | No                    | Yes                    |              12 |            5 |
+| No           | Yes                   | No                     |              14 |            6 |
+| Yes          | No                    | No                     |               8 |            3 |
+| Yes          | No                    | Yes                    |              19 |            6 |
+| Yes          | Yes                   | No                     |              14 |            4 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------------+---------------------------------------------------+----------------------------------------------------+------------------+----------------+
+|                 Clock Signal                |                   Enable Signal                   |                  Set/Reset Signal                  | Slice Load Count | Bel Load Count |
++---------------------------------------------+---------------------------------------------------+----------------------------------------------------+------------------+----------------+
+|  clk_0_IBUF_BUFG                            | design_1_i/topmain_0/U0/processor/flag_enable     | design_1_i/topmain_0/U0/processor/I1               |                1 |              2 |
+|  clk_0_IBUF_BUFG                            |                                                   | design_1_i/topmain_0/U0/processor/I1               |                3 |              6 |
+|  clk_0_IBUF_BUFG                            |                                                   | design_1_i/topmain_0/U0/program_rom/instruction[7] |                3 |              8 |
+|  clk_0_IBUF_BUFG                            | design_1_i/topmain_0/U0/processor/spm_enable      |                                                    |                2 |              8 |
+|  clk_0_IBUF_BUFG                            | design_1_i/topmain_0/U0/processor/E[0]            |                                                    |                3 |              8 |
+|  clk_0_IBUF_BUFG                            | design_1_i/main_0/U0/contador[7]_i_1_n_0          | reset_0_IBUF                                       |                3 |              8 |
+|  design_1_i/main_0/U0/offset_reg[7]_i_2_n_0 |                                                   |                                                    |                4 |              8 |
+|  clk_0_IBUF_BUFG                            | design_1_i/main_0/U0/pwm_reg[10]_i_1_n_0          | reset_0_IBUF                                       |                3 |             11 |
+|  clk_0_IBUF_BUFG                            |                                                   | reset_0_IBUF                                       |                5 |             12 |
+|  clk_0_IBUF_BUFG                            | design_1_i/topmain_0/U0/processor/t_state_0       | design_1_i/topmain_0/U0/processor/I1               |                3 |             12 |
+|  clk_0_IBUF_BUFG                            | design_1_i/topmain_0/U0/processor/register_enable |                                                    |                2 |             16 |
+|  clk_0_IBUF_BUFG                            | design_1_i/topmain_0/U0/processor/t_state_0       |                                                    |                2 |             16 |
+|  clk_0_IBUF_BUFG                            |                                                   |                                                    |               19 |             61 |
++---------------------------------------------+---------------------------------------------------+----------------------------------------------------+------------------+----------------+
+
+

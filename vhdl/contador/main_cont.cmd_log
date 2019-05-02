@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/contador/main_cont.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/contador/main_cont.syr" 

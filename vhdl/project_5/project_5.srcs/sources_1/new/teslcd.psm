@@ -1,0 +1,304 @@
+                  ;ASCII
+                  
+                  CONSTANT character_a, 61 
+                  CONSTANT character_b, 62 
+                  CONSTANT character_c, 63 
+                  CONSTANT character_d, 64 
+                  CONSTANT character_e, 65 
+                  CONSTANT character_f, 66 
+                  CONSTANT character_g, 67 
+                  CONSTANT character_h, 68 
+                  CONSTANT character_i, 69 
+                  CONSTANT character_j, 6A 
+                  CONSTANT character_k, 6B 
+                  CONSTANT character_l, 6C 
+                  CONSTANT character_m, 6D 
+                  CONSTANT character_n, 6E 
+                  CONSTANT character_o, 6F 
+                  CONSTANT character_p, 70 
+                  CONSTANT character_q, 71 
+                  CONSTANT character_r, 72 
+                  CONSTANT character_s, 73 
+                  CONSTANT character_t, 74 
+                  CONSTANT character_u, 75 
+                  CONSTANT character_v, 76 
+                  CONSTANT character_w, 77 
+                  CONSTANT character_x, 78 
+                  CONSTANT character_y, 79 
+                  CONSTANT character_z, 7A 
+                  CONSTANT character_A, 41 
+                  CONSTANT character_B, 42 
+                  CONSTANT character_C, 43 
+                  CONSTANT character_D, 44 
+                  CONSTANT character_E, 45 
+                  CONSTANT character_F, 46 
+                  CONSTANT character_G, 47 
+                  CONSTANT character_H, 48 
+                  CONSTANT character_I, 49 
+                  CONSTANT character_J, 4A 
+                  CONSTANT character_K, 4B 
+                  CONSTANT character_L, 4C 
+                  CONSTANT character_M, 4D 
+                  CONSTANT character_N, 4E 
+                  CONSTANT character_O, 4F 
+                  CONSTANT character_P, 50 
+                  CONSTANT character_Q, 51 
+                  CONSTANT character_R, 52 
+                  CONSTANT character_S, 53 
+                  CONSTANT character_T, 54 
+                  CONSTANT character_U, 55 
+                  CONSTANT character_V, 56 
+                  CONSTANT character_W, 57 
+                  CONSTANT character_X, 58 
+                  CONSTANT character_Y, 59 
+                  CONSTANT character_Z, 5A 
+                  CONSTANT character_0, 30 
+                  CONSTANT character_1, 31 
+                  CONSTANT character_2, 32 
+                  CONSTANT character_3, 33 
+                  CONSTANT character_4, 34 
+                  CONSTANT character_5, 35 
+                  CONSTANT character_6, 36 
+                  CONSTANT character_7, 37 
+                  CONSTANT character_8, 38 
+                  CONSTANT character_9, 39 
+                  CONSTANT character_colon, 3A 
+                  CONSTANT character_stop, 2E 
+                  CONSTANT character_semi_colon, 3B 
+                  CONSTANT character_minus, 2D 
+                  CONSTANT character_divide, 2F       ;'/' 
+                  CONSTANT character_plus, 2B 
+                  CONSTANT character_comma, 2C 
+                  CONSTANT character_less_than, 3C 
+                  CONSTANT character_greater_than, 3E 
+                  CONSTANT character_equals, 3D 
+                  CONSTANT character_space, 20 
+                  CONSTANT character_CR, 0D           ;carriage return 
+                  CONSTANT character_question, 3F     ;'?' 
+                  CONSTANT character_dollar, 24 
+                  CONSTANT character_exclaim, 21      ;'!' 
+                  CONSTANT character_BS, 08           ;Back Space command character 
+                  ; 
+
+
+CONSTANT datoteclado, 00
+CONSTANT lcd_output, 40
+
+CONSTANT lcd_control, 20
+CONSTANT lcd_e, 01 
+CONSTANT lcd_rw, 02
+CONSTANT lcd_rs, 04
+
+CONSTANT pwm_output, 10 
+
+inicio:
+    CALL lcd_reset
+
+;programa principal
+
+principal:
+    LOAD     s5,12
+    CALL     lcd_cursor
+    CALL    escribir
+
+esperardato:
+
+    CALL	lectura
+    COMPARE	sA, 00
+    JUMP 	z,esperardato
+    COMPARE	sA, 1C
+    CALL Z,	correcto
+    RETURN
+
+;Delays
+
+
+delay_1us:
+    LOAD s0, 0A
+    JUMP software_delay
+
+
+
+delay_40us:
+    LOAD s1, 01
+    LOAD s0, 90
+    JUMP software_delay
+
+delay_1ms: 
+    LOAD s2, 00
+    LOAD s1, 27
+    LOAD s0, 10
+    JUMP software_delay
+
+    
+    
+delay_4ms:
+    LOAD s2, 00
+    LOAD s1, 9C
+    LOAD s0, 40
+    JUMP software_delay
+    
+    
+delay_20ms: 
+    LOAD s2, 03
+    LOAD s1, 0D
+    LOAD s0, 40
+    JUMP software_delay
+
+delay_1s: 
+    LOAD s2, 98
+    LOAD s1, 96
+    LOAD s0, 80
+    JUMP software_delay
+
+
+software_delay: 
+    LOAD s0, s0             ;pad loop to make it 10 clock cycles (5 instructions)
+    SUB s0, 1'd
+    SUBCY s1, 0'd
+    SUBCY s2, 0'd
+    JUMP NZ, software_delay
+    RETURN 
+
+
+
+
+
+;subrutinas lcd
+escribir:
+	LOAD s5, character_E
+	CALL write_data
+	LOAD s5, character_s
+	CALL write_data
+	LOAD s5, character_c
+	CALL write_data
+	LOAD s5, character_r
+	CALL write_data
+	LOAD s5, character_i
+	CALL write_data
+	LOAD s5, character_b
+	CALL write_data
+	LOAD s5, character_e
+	CALL write_data
+	RETURN
+
+correcto:
+	LOAD s5, character_C
+	CALL write_data
+	LOAD s5, character_o
+	CALL write_data
+	LOAD s5, character_r
+	CALL write_data
+	LOAD s5, character_r
+	CALL write_data
+	LOAD s5, character_e
+	CALL write_data
+	LOAD s5, character_c
+	CALL write_data
+	LOAD s5, character_t
+	CALL write_data
+	LOAD s5, character_o
+	CALL write_data
+	LOAD   s6, f0
+	OUTPUT s6, pwm_output
+	RETURN
+
+incorrecto:
+	LOAD s5, character_I
+	CALL write_data
+	LOAD s5, character_n
+	CALL write_data
+	LOAD s5, character_c
+	CALL write_data
+	LOAD s5, character_o
+	CALL write_data
+	LOAD s5, character_r
+	CALL write_data
+	LOAD s5, character_r
+	CALL write_data
+	LOAD s5, character_e
+	CALL write_data
+	LOAD s5, character_c
+	CALL write_data
+	LOAD s5, character_t
+	CALL write_data
+	LOAD s5, character_o
+	CALL write_data
+	LOAD   s6, 00
+	OUTPUT s6, pwm_output
+	RETURN
+
+
+write_com:
+    OUTPUT s5, lcd_output
+    LOAD s4, 00
+    OUTPUT s4, lcd_control
+    CALL lcd_pulsoE
+    CALL delay_40us
+    RETURN
+
+write_data:
+    OUTPUT s5, lcd_output
+    LOAD s4, 04
+    OUTPUT s4, lcd_control
+    CALL lcd_pulsoE
+    CALL delay_40us
+    RETURN
+
+lcd_pulsoE:
+    XOR s4, lcd_e
+    OUTPUT s4, lcd_control
+    CALL delay_1us
+    XOR s4, lcd_e
+    OUTPUT s4, lcd_control
+    RETURN
+
+
+lcd_reset:
+    CALL delay_20ms
+    LOAD s5, 38
+    CALL write_com
+    CALL delay_4ms
+    CALL delay_1ms
+    CALL write_com
+    CALL delay_1ms
+    CALL write_com
+    CALL write_com
+    LOAD s5, 06
+    CALL write_com
+    LOAD s5, 0C
+    CALL write_com
+    LOAD s5, 01
+    CALL write_com
+    CALL delay_1ms
+    CALL delay_1ms
+    RETURN
+
+
+lcd_cursor:
+    TEST s5, 10
+    JUMP z, linea2
+    AND s5, 0F
+    OR s5, 80
+    CALL write_com
+    RETURN
+
+linea2:
+    AND s5, 0F
+    OR s5, C0
+    CALL write_com
+    RETURN
+
+
+lectura:
+	INPUT sA, datoteclado
+	call delay_1s
+	INPUT sB, datoteclado
+	call delay_1s
+	INPUT sC, datoteclado
+	call delay_1s
+	INPUT sD, datoteclado
+	call delay_1s	
+	INPUT sE, datoteclado
+	call delay_1s
+	RETURN

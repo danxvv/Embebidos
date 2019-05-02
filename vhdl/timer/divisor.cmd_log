@@ -1,0 +1,3 @@
+vhdtdtfi -prj timer -o C:/Users/darko/OneDrive/Documentos/VH/timer/divisor.vhi -module divisor -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work divisor.vhd 
+vhdtdtfi -prj timer -o C:/Users/darko/OneDrive/Documentos/VH/timer/divisor.vhi -module divisor -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work divisor.vhd 
+vhdtdtfi -prj timer -o C:/Users/darko/OneDrive/Documentos/VH/timer/divisor.vhi -module divisor -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work divisor.vhd 

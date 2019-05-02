@@ -1,0 +1,18 @@
+set_property PACKAGE_PIN H16 [get_ports sys_clock]
+set_property PACKAGE_PIN Y9 [get_ports echo_0]
+set_property PACKAGE_PIN W10 [get_ports salida_0]
+set_property PACKAGE_PIN V10 [get_ports trigger_0]
+set_property DIRECTION IN [get_ports echo_0]
+set_property IOSTANDARD LVCMOS33 [get_ports echo_0]
+set_property DIRECTION OUT [get_ports salida_0]
+set_property IOSTANDARD LVCMOS33 [get_ports salida_0]
+set_property DRIVE 12 [get_ports salida_0]
+set_property SLEW SLOW [get_ports salida_0]
+set_property DIRECTION OUT [get_ports trigger_0]
+set_property IOSTANDARD LVCMOS33 [get_ports trigger_0]
+set_property DRIVE 12 [get_ports trigger_0]
+set_property SLEW SLOW [get_ports trigger_0]
+set_property DIRECTION IN [get_ports sys_clock]
+set_property IOSTANDARD LVCMOS33 [get_ports sys_clock]
+#revert back to original instance
+current_instance -quiet

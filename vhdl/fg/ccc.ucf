@@ -1,0 +1,14 @@
+# ENTRADAS
+NET "s<0>" LOC = "143";
+NET "s<1>" LOC = "94";
+NET "s<2>" LOC = "39";
+NET "s<3>" LOC = "124";
+
+# SALIDAS
+NET "x<0>" LOC = "56";
+NET "x<1>" LOC = "53";
+NET "x<2>" LOC = "60";
+NET "x<3>" LOC = "58";
+NET "x<4>" LOC = "57";
+NET "x<5>" LOC = "54";
+NET "x<6>" LOC = "61";

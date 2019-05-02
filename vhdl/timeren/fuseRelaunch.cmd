@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/darko/OneDrive/Documentos/VH/timeren/entb_isim_beh.exe" -prj "C:/Users/darko/OneDrive/Documentos/VH/timeren/entb_beh.prj" "work.entb" 

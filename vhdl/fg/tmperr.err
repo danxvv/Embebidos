@@ -1,0 +1,8 @@
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_F2F =
+   MAXDELAY:FROM:FFS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_P2F =
+   MAXDELAY:FROM:PADS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.

@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Oct 15 11:51:55 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "C9" LEVEL 1;
+COMP "salidaled<0>" LOCATE = SITE "B4" LEVEL 1;
+COMP "salidaled<1>" LOCATE = SITE "A4" LEVEL 1;
+COMP "salidaled<2>" LOCATE = SITE "D5" LEVEL 1;
+COMP "salidaled<3>" LOCATE = SITE "C5" LEVEL 1;
+COMP "salidaled<4>" LOCATE = SITE "A6" LEVEL 1;
+COMP "salidaled<5>" LOCATE = SITE "B6" LEVEL 1;
+COMP "salidaled<6>" LOCATE = SITE "E7" LEVEL 1;
+COMP "reset" LOCATE = SITE "V4" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

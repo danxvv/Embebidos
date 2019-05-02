@@ -1,0 +1,5 @@
+set -tmpdir "/home/david/Dropbox/VH/div_tarea/xst/projnav.tmp"
+set -xsthdpdir "/home/david/Dropbox/VH/div_tarea/xst"
+elaborate
+-ifn main.prj
+-ifmt mixed

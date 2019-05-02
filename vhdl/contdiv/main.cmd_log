@@ -1,0 +1,2 @@
+vhdtdtfi -prj contdiv -o C:/Users/darko/OneDrive/Documentos/VH/contdiv/main.vhi -module main -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../div_tarea/main.vhd 
+vhdtdtfi -prj contdiv -o C:/Users/darko/OneDrive/Documentos/VH/contdiv/main.vhi -module main -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../div_tarea/main.vhd 

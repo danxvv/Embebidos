@@ -1,0 +1,726 @@
+20:34:23 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+20:34:34 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+20:46:12 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+../src/xgpio_example.c: In function 'main':
+../src/xgpio_example.c:126:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23312	   1184	  22616	  47112	   b808	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+01:20:20 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+01:28:50 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+../src/xgpio_example.c: In function 'main':
+../src/xgpio_example.c:144:25: error: 'swtic' undeclared (first use in this function); did you mean 'switc'?
+src/subdir.mk:21: recipe for target 'src/xgpio_example.o' failed
+   if(boton == 0b0000 && swtic == 0b00){}
+                         ^~~~~
+                         switc
+../src/xgpio_example.c:144:25: note: each undeclared identifier is reported only once for each function it appears in
+../src/xgpio_example.c:127:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+../src/xgpio_example.c:126:12: warning: variable 'switc' set but not used [-Wunused-but-set-variable]
+  u32 boton,switc;
+            ^~~~~
+make: *** [src/xgpio_example.o] Error 1
+01:29:23 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20360	   1176	  22632	  44168	   ac88	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+01:31:05 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+01:31:06 **** Clean-only build of configuration Debug for project base_bsp_0_xgpio_low_level_example_1 ****
+make clean 
+rm -rf  ./src/xgpio_low_level_example.o  ./src/xgpio_low_level_example.d  base_bsp_0_xgpio_low_level_example_1.elf.size  base_bsp_0_xgpio_low_level_example_1.elf
+ 
+01:31:07 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_low_level_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_low_level_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_low_level_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_low_level_example.d" -MT"src/xgpio_low_level_example.o" -o "src/xgpio_low_level_example.o" "../src/xgpio_low_level_example.c"
+Finished building: ../src/xgpio_low_level_example.c
+ 
+Building target: base_bsp_0_xgpio_low_level_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_low_level_example_1.elf"  ./src/xgpio_low_level_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_low_level_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_low_level_example_1.elf  |tee "base_bsp_0_xgpio_low_level_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19244	   1144	  22568	  42956	   a7cc	base_bsp_0_xgpio_low_level_example_1.elf
+Finished building: base_bsp_0_xgpio_low_level_example_1.elf.size
+ 
+01:31:08 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+01:31:09 **** Incremental Build of configuration Debug for project bootloader ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+01:32:38 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20716	   1176	  22632	  44524	   adec	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+01:32:51 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+01:33:55 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20740	   1176	  22632	  44548	   ae04	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+01:34:02 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+01:34:54 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20740	   1176	  22632	  44548	   ae04	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+01:35:01 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+01:55:55 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+../src/xgpio_example.c: In function 'main':
+../src/xgpio_example.c:124:7: warning: variable 'letra' set but not used [-Wunused-but-set-variable]
+  char letra;
+       ^~~~~
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20892	   1176	  22632	  44700	   ae9c	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+01:57:10 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23668	   1184	  22632	  47484	   b97c	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+01:57:23 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+01:58:14 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+../src/xgpio_example.c: In function 'main':
+../src/xgpio_example.c:124:7: warning: unused variable 'letra' [-Wunused-variable]
+  char letra;
+       ^~~~~
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20740	   1176	  22632	  44548	   ae04	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+01:58:22 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+02:01:57 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23668	   1184	  22632	  47484	   b97c	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+02:02:03 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+02:03:37 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23732	   1184	  22632	  47548	   b9bc	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+02:03:43 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+02:04:01 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+02:05:09 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20928	   1176	  22632	  44736	   aec0	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+02:05:14 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+02:06:31 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23732	   1184	  22632	  47548	   b9bc	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+02:06:37 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+02:07:16 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20928	   1176	  22632	  44736	   aec0	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+02:07:22 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+02:07:53 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+../src/xgpio_example.c: In function 'main':
+../src/xgpio_example.c:124:7: warning: variable 'letra' set but not used [-Wunused-but-set-variable]
+  char letra;
+       ^~~~~
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20892	   1176	  22632	  44700	   ae9c	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+02:07:57 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+02:08:24 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+../src/xgpio_example.c: In function 'main':
+../src/xgpio_example.c:124:7: warning: unused variable 'letra' [-Wunused-variable]
+  char letra;
+       ^~~~~
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20740	   1176	  22632	  44548	   ae04	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+02:09:18 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+../src/xgpio_example.c: In function 'main':
+../src/xgpio_example.c:142:8: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   else if (boton == 0b0001 && switc == 0b00)
+        ^~
+../src/xgpio_example.c:144:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+    xil_printf("boton0");
+    ^~~~~~~~~~
+../src/xgpio_example.c:145:3: error: 'else' without a previous 'if'
+   else if (boton == 0b0010 && switc == 0b00)
+   ^~~~
+../src/xgpio_example.c:124:7: warning: unused variable 'letra' [-Wunused-variable]
+  char letra;
+       ^~~~~
+src/subdir.mk:21: recipe for target 'src/xgpio_example.o' failed
+make: *** [src/xgpio_example.o] Error 1
+02:09:37 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+../src/xgpio_example.c: In function 'main':
+../src/xgpio_example.c:124:7: warning: unused variable 'letra' [-Wunused-variable]
+  char letra;
+       ^~~~~
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23672	   1184	  22632	  47488	   b980	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+02:09:40 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+../src/xgpio_example.c: In function 'main':
+../src/xgpio_example.c:124:7: warning: unused variable 'letra' [-Wunused-variable]
+  char letra;
+       ^~~~~
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23672	   1184	  22632	  47488	   b980	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+02:09:47 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+02:10:19 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+../src/xgpio_example.c: In function 'main':
+../src/xgpio_example.c:124:7: warning: variable 'letra' set but not used [-Wunused-but-set-variable]
+  char letra;
+       ^~~~~
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23672	   1184	  22632	  47488	   b980	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+02:10:48 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+../src/xgpio_example.c: In function 'main':
+../src/xgpio_example.c:124:7: warning: variable 'letra' set but not used [-Wunused-but-set-variable]
+  char letra=0;
+       ^~~~~
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23672	   1184	  22632	  47488	   b980	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+02:11:01 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+../src/xgpio_example.c: In function 'main':
+../src/xgpio_example.c:124:7: warning: variable 'letra' set but not used [-Wunused-but-set-variable]
+  char letra=0;
+       ^~~~~
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23672	   1184	  22632	  47488	   b980	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+02:11:16 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+02:13:56 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+In file included from ../src/xgpio_example.c:62:0:
+../src/xgpio_example.c: In function 'main':
+../../base_bsp_0/ps7_cortexa9_0/include/xparameters.h:375:33: warning: passing argument 1 of 'scanf' makes pointer from integer without a cast [-Wint-conversion]
+ #define XPAR_XUARTPS_0_BASEADDR 0xE0000000
+                                 ^
+../src/xgpio_example.c:132:16: note: in expansion of macro 'XPAR_XUARTPS_0_BASEADDR'
+  letra = scanf(XPAR_XUARTPS_0_BASEADDR);
+                ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /tools/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:29:0,
+                 from ../src/xgpio_example.c:61:
+/tools/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:183:5: note: expected 'const char * restrict' but argument is of type 'unsigned int'
+ int _EXFUN(scanf, (const char *__restrict, ...)
+     ^
+../src/xgpio_example.c:124:7: warning: variable 'letra' set but not used [-Wunused-but-set-variable]
+  char letra=0;
+       ^~~~~
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 103376	   2616	  23392	 129384	  1f968	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+02:14:11 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+02:14:50 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+In file included from ../src/xgpio_example.c:62:0:
+../src/xgpio_example.c: In function 'main':
+../../base_bsp_0/ps7_cortexa9_0/include/xparameters.h:375:33: warning: passing argument 1 of 'scanf' makes pointer from integer without a cast [-Wint-conversion]
+ #define XPAR_XUARTPS_0_BASEADDR 0xE0000000
+                                 ^
+../src/xgpio_example.c:132:16: note: in expansion of macro 'XPAR_XUARTPS_0_BASEADDR'
+  letra = scanf(XPAR_XUARTPS_0_BASEADDR);
+                ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /tools/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:29:0,
+                 from ../src/xgpio_example.c:61:
+/tools/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:183:5: note: expected 'const char * restrict' but argument is of type 'unsigned int'
+ int _EXFUN(scanf, (const char *__restrict, ...)
+     ^
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 103384	   2616	  23392	 129392	  1f970	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 
+02:14:54 **** Incremental Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+02:17:13 **** Build of configuration Debug for project base_bsp_0_xuartps_hello_world_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xuartps_hello_world_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartps_hello_world_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xuartps_hello_world_example.d" -MT"src/xuartps_hello_world_example.o" -o "src/xuartps_hello_world_example.o" "../src/xuartps_hello_world_example.c"
+Finished building: ../src/xuartps_hello_world_example.c
+ 
+Building target: base_bsp_0_xuartps_hello_world_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xuartps_hello_world_example_1.elf"  ./src/xuartps_hello_world_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xuartps_hello_world_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xuartps_hello_world_example_1.elf  |tee "base_bsp_0_xuartps_hello_world_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23940	   1168	  22648	  47756	   ba8c	base_bsp_0_xuartps_hello_world_example_1.elf
+Finished building: base_bsp_0_xuartps_hello_world_example_1.elf.size
+ 
+02:19:29 **** Auto Build of configuration Debug for project base_bsp_0_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../base_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: base_bsp_0_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../base_bsp_0/ps7_cortexa9_0/lib -o "base_bsp_0_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: base_bsp_0_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size base_bsp_0_xgpio_example_1.elf  |tee "base_bsp_0_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23672	   1184	  22632	  47488	   b980	base_bsp_0_xgpio_example_1.elf
+Finished building: base_bsp_0_xgpio_example_1.elf.size
+ 

@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Det_flanco.srcs/sources_1/new/flanco.vhd" \
+"../../../../Det_flanco.srcs/sim_1/new/TB_flanco.vhd" \
+
+# Do not sort compile order
+nosort

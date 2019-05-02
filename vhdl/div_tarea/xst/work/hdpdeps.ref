@@ -1,0 +1,7 @@
+V3 4
+FL /home/david/Dropbox/VH/div_tarea/main.vhd 2018/10/15.10:57:26 P.20131013
+EN work/main 1549909348 FL /home/david/Dropbox/VH/div_tarea/main.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/main/Behavioral 1549909349 \
+      FL /home/david/Dropbox/VH/div_tarea/main.vhd EN work/main 1549909348
+FL C:/Users/darko/OneDrive/Documentos/VH/div_tarea/main.vhd 2018/10/08.09:04:16 P.20131013

@@ -1,0 +1,2 @@
+vhdl work "contseg.vhd"
+vhdl work "tb_contseg.vhd"

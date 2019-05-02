@@ -1,0 +1,51 @@
+VHDL "ROM_form.vhd", "p1.vhd", "p1" ;&&Para generar un archivo, en la carpeta siempre lleva la carpeta ROM
+SET_MASK 	equ 	$00	
+;&&&&&&PORT ID &&&&&&&&&&& DIRECCIONES DE ENTRADAS Y SALIDAS QUE PUEDEN TENER &&&&&
+
+led      dsout   $00   ;&&& EL SIGNO $ INDICA VALOR HEXADECIMAL	
+boton	 dsin	 $01   ;&&&Decide si se incrementa o se decrementa
+
+	
+;&&&&&&&&MAIN&&&&&&&&&
+       org	     $000 ;&&&& PERMITE QUE LA DIRECCION SE INICIE EN CERO
+
+inicio:
+
+	   load		s0, $00
+	   in		s1, boton
+	   comp		s1, $01
+	   jump		nz, incrementar
+	   comp		s0, $00
+	   jump		decrementar
+	   load		s0, $ff
+	
+decrementar:
+	   sub		s0, $01
+	   out		s0, led
+	   jump		$001
+	   comp		s0, $00
+	   jump 	nz, $005
+	   jump		inicio
+	
+	
+incrementar:
+	   add		s0, $01
+	   out		s0, led
+	   jump		$001
+	   comp 	s0, $ff ;&&&&& Valor 255 &&&
+	   jump		nz, incrementar  ;&&& Si z y lo de s0 de comparacion no son iguales se pone en 0 y salta a la siguiente instruccion &&&&
+	   jump		inicio
+
+;&&&&&&&&&SUBRUTINAS&&&&&&&
+retardo:
+
+
+load	 s8, $ff
+sub      s8,$01
+comp     s8, $00
+jump     nz,retardo
+ret
+
+;&&&& Hacer un decodificador para mostrar en un display
+display:
+		

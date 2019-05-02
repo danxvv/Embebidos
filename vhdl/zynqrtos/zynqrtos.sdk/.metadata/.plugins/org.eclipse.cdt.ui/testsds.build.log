@@ -1,0 +1,21 @@
+18:36:44 **** Build of configuration Debug for project testsds ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: testsds.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc  -o "testsds.elf"  ./src/helloworld.o   
+Finished building target: testsds.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testsds.elf  |tee "testsds.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+    852	    280	      4	   1136	    470	testsds.elf
+Finished building: testsds.elf.size
+ 
+
+18:36:47 Build Finished (took 2s.178ms)
+

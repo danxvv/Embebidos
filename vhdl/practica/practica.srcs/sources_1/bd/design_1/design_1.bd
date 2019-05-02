@@ -1,0 +1,170 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x35049A13B52F8C96",
+      "device": "xc7a35tcpg236-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "topmain_0": "",
+      "main_0": ""
+    },
+    "ports": {
+      "lcd_rw_0": {
+        "direction": "O"
+      },
+      "botondown_0": {
+        "direction": "I"
+      },
+      "selector_0": {
+        "direction": "I"
+      },
+      "botonup_0": {
+        "direction": "I"
+      },
+      "clk_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "reset_0",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "design_1_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "reset_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "switch_0": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "lcd_rs_0": {
+        "direction": "O"
+      },
+      "lcd_e_0": {
+        "direction": "O"
+      },
+      "lcd_d_0": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "pwm_out_0": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "topmain_0": {
+        "vlnv": "user.org:user:topmain:1.0",
+        "xci_name": "design_1_topmain_0_0"
+      },
+      "main_0": {
+        "vlnv": "user.org:user:main:1.0",
+        "xci_name": "design_1_main_0_0"
+      }
+    },
+    "nets": {
+      "topmain_0_lcd_rw": {
+        "ports": [
+          "topmain_0/lcd_rw",
+          "lcd_rw_0"
+        ]
+      },
+      "botondown_0_1": {
+        "ports": [
+          "botondown_0",
+          "main_0/botondown"
+        ]
+      },
+      "selector_0_1": {
+        "ports": [
+          "selector_0",
+          "main_0/selector"
+        ]
+      },
+      "botonup_0_1": {
+        "ports": [
+          "botonup_0",
+          "main_0/botonup"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk_0",
+          "topmain_0/clk",
+          "main_0/clk"
+        ]
+      },
+      "reset_0_1": {
+        "ports": [
+          "reset_0",
+          "topmain_0/reset",
+          "main_0/reset"
+        ]
+      },
+      "switch_0_1": {
+        "ports": [
+          "switch_0",
+          "topmain_0/into",
+          "main_0/switch"
+        ]
+      },
+      "topmain_0_lcd_rs": {
+        "ports": [
+          "topmain_0/lcd_rs",
+          "lcd_rs_0"
+        ]
+      },
+      "topmain_0_lcd_e": {
+        "ports": [
+          "topmain_0/lcd_e",
+          "lcd_e_0"
+        ]
+      },
+      "topmain_0_lcd_d": {
+        "ports": [
+          "topmain_0/lcd_d",
+          "lcd_d_0"
+        ]
+      },
+      "main_0_pwm_out": {
+        "ports": [
+          "main_0/pwm_out",
+          "pwm_out_0"
+        ]
+      }
+    }
+  }
+}

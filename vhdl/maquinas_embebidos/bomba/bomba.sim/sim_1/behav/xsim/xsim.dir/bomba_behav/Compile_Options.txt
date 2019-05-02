@@ -1,0 +1,1 @@
+-wto "afb786e19fd14bd1abe1f6c920922fbc" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "bomba_behav" "xil_defaultlib.bomba" -log "elaborate.log" 

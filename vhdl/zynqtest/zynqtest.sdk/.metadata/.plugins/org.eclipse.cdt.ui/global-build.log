@@ -1,0 +1,965 @@
+12:59:56 **** Incremental Build of configuration Debug for project gpiotest_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:00:03 **** Incremental Build of configuration Debug for project gpiotest_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:05:12 **** Incremental Build of configuration Debug for project gpiotest_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:05:53 **** Auto Build of configuration Debug for project gpiotest_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: gpiotest_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_example_1.elf  |tee "gpiotest_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23712	   1168	  22600	  47480	   b978	gpiotest_xgpio_example_1.elf
+Finished building: gpiotest_xgpio_example_1.elf.size
+ 
+13:05:59 **** Incremental Build of configuration Debug for project gpiotest_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:06:10 **** Auto Build of configuration Debug for project gpiotest_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: gpiotest_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_example_1.elf  |tee "gpiotest_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23712	   1168	  22600	  47480	   b978	gpiotest_xgpio_example_1.elf
+Finished building: gpiotest_xgpio_example_1.elf.size
+ 
+13:06:18 **** Incremental Build of configuration Debug for project gpiotest_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:06:52 **** Incremental Build of configuration Debug for project gpiotest_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:07:14 **** Auto Build of configuration Debug for project gpiotest_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: gpiotest_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_example_1.elf  |tee "gpiotest_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23712	   1168	  22600	  47480	   b978	gpiotest_xgpio_example_1.elf
+Finished building: gpiotest_xgpio_example_1.elf.size
+ 
+13:07:19 **** Incremental Build of configuration Debug for project gpiotest_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:09:39 **** Auto Build of configuration Debug for project gpiotest_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: gpiotest_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_example_1.elf  |tee "gpiotest_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23720	   1168	  22600	  47488	   b980	gpiotest_xgpio_example_1.elf
+Finished building: gpiotest_xgpio_example_1.elf.size
+ 
+13:10:17 **** Incremental Build of configuration Debug for project gpiotest_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:13:01 **** Auto Build of configuration Debug for project gpiotest_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: gpiotest_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_example_1.elf  |tee "gpiotest_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23724	   1168	  22600	  47492	   b984	gpiotest_xgpio_example_1.elf
+Finished building: gpiotest_xgpio_example_1.elf.size
+ 
+13:13:08 **** Incremental Build of configuration Debug for project gpiotest_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:15:20 **** Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+Finished building: ../src/xgpio_tapp_example.c
+ 
+Building target: gpiotest_xgpio_tapp_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_tapp_example_1.elf"  ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_tapp_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_tapp_example_1.elf  |tee "gpiotest_xgpio_tapp_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24172	   1168	  22616	  47956	   bb54	gpiotest_xgpio_tapp_example_1.elf
+Finished building: gpiotest_xgpio_tapp_example_1.elf.size
+ 
+13:16:02 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+Finished building: ../src/xgpio_tapp_example.c
+ 
+Building target: gpiotest_xgpio_tapp_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_tapp_example_1.elf"  ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_tapp_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_tapp_example_1.elf  |tee "gpiotest_xgpio_tapp_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24172	   1168	  22616	  47956	   bb54	gpiotest_xgpio_tapp_example_1.elf
+Finished building: gpiotest_xgpio_tapp_example_1.elf.size
+ 
+13:16:46 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+Finished building: ../src/xgpio_tapp_example.c
+ 
+Building target: gpiotest_xgpio_tapp_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_tapp_example_1.elf"  ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_tapp_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_tapp_example_1.elf  |tee "gpiotest_xgpio_tapp_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24172	   1168	  22616	  47956	   bb54	gpiotest_xgpio_tapp_example_1.elf
+Finished building: gpiotest_xgpio_tapp_example_1.elf.size
+ 
+13:16:52 **** Incremental Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:17:26 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+Finished building: ../src/xgpio_tapp_example.c
+ 
+Building target: gpiotest_xgpio_tapp_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_tapp_example_1.elf"  ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_tapp_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_tapp_example_1.elf  |tee "gpiotest_xgpio_tapp_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24172	   1168	  22616	  47956	   bb54	gpiotest_xgpio_tapp_example_1.elf
+Finished building: gpiotest_xgpio_tapp_example_1.elf.size
+ 
+13:21:12 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+../src/xgpio_tapp_example.c:104:23: error: expected declaration specifiers or '...' before numeric constant
+ int GpioOutputExample(0, 4);
+                       ^
+../src/xgpio_tapp_example.c:104:26: error: expected declaration specifiers or '...' before numeric constant
+ int GpioOutputExample(0, 4);
+                          ^
+../src/xgpio_tapp_example.c: In function 'main':
+../src/xgpio_tapp_example.c:140:11: warning: implicit declaration of function 'GpioOutputExample'; did you mean 'GpioInputExample'? [-Wimplicit-function-declaration]
+src/subdir.mk:21: recipe for target 'src/xgpio_tapp_example.o' failed
+  Status = GpioOutputExample(GPIO_OUTPUT_DEVICE_ID, GPIO_BITWIDTH);
+           ^~~~~~~~~~~~~~~~~
+           GpioInputExample
+../src/xgpio_tapp_example.c: At top level:
+../src/xgpio_tapp_example.c:178:5: error: conflicting types for 'GpioOutputExample'
+ int GpioOutputExample(u16 DeviceId, u32 GpioWidth)
+     ^~~~~~~~~~~~~~~~~
+../src/xgpio_tapp_example.c:179:1: note: an argument type that has a default promotion can't match an empty parameter name list declaration
+ {
+ ^
+../src/xgpio_tapp_example.c:140:11: note: previous implicit declaration of 'GpioOutputExample' was here
+  Status = GpioOutputExample(GPIO_OUTPUT_DEVICE_ID, GPIO_BITWIDTH);
+           ^~~~~~~~~~~~~~~~~
+make: *** [src/xgpio_tapp_example.o] Error 1
+13:23:33 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+In file included from ../src/xgpio_tapp_example.c:60:0:
+../../gpiotest/ps7_cortexa9_0/include/xparameters.h:229:35: error: expected declaration specifiers or '...' before numeric constant
+ #define XPAR_AXI_GPIO_0_DEVICE_ID 0
+                                   ^
+../src/xgpio_tapp_example.c:92:31: note: in expansion of macro 'XPAR_AXI_GPIO_0_DEVICE_ID'
+ #define GPIO_OUTPUT_DEVICE_ID XPAR_AXI_GPIO_0_DEVICE_ID
+                               ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/xgpio_tapp_example.c:104:23: note: in expansion of macro 'GPIO_OUTPUT_DEVICE_ID'
+ int GpioOutputExample(GPIO_OUTPUT_DEVICE_ID,GPIO_BITWIDTH);
+                       ^~~~~~~~~~~~~~~~~~~~~
+../src/xgpio_tapp_example.c:82:23: error: expected declaration specifiers or '...' before numeric constant
+ #define GPIO_BITWIDTH 16 /* This is the width of the GPIO */
+                       ^
+../src/xgpio_tapp_example.c:104:45: note: in expansion of macro 'GPIO_BITWIDTH'
+ int GpioOutputExample(GPIO_OUTPUT_DEVICE_ID,GPIO_BITWIDTH);
+                                             ^~~~~~~~~~~~~
+../src/xgpio_tapp_example.c: In function 'main':
+../src/xgpio_tapp_example.c:140:11: warning: implicit declaration of function 'GpioOutputExample'; did you mean 'GpioInputExample'? [-Wimplicit-function-declaration]
+  Status = GpioOutputExample(GPIO_OUTPUT_DEVICE_ID, GPIO_BITWIDTH);
+           ^~~~~~~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/xgpio_tapp_example.o' failed
+           GpioInputExample
+../src/xgpio_tapp_example.c: At top level:
+../src/xgpio_tapp_example.c:178:5: error: conflicting types for 'GpioOutputExample'
+ int GpioOutputExample(u16 DeviceId, u32 GpioWidth)
+     ^~~~~~~~~~~~~~~~~
+../src/xgpio_tapp_example.c:179:1: note: an argument type that has a default promotion can't match an empty parameter name list declaration
+ {
+ ^
+../src/xgpio_tapp_example.c:140:11: note: previous implicit declaration of 'GpioOutputExample' was here
+  Status = GpioOutputExample(GPIO_OUTPUT_DEVICE_ID, GPIO_BITWIDTH);
+           ^~~~~~~~~~~~~~~~~
+make: *** [src/xgpio_tapp_example.o] Error 1
+13:23:53 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+In file included from ../src/xgpio_tapp_example.c:60:0:
+../../gpiotest/ps7_cortexa9_0/include/xparameters.h:229:35: error: expected declaration specifiers or '...' before numeric constant
+ #define XPAR_AXI_GPIO_0_DEVICE_ID 0
+                                   ^
+../src/xgpio_tapp_example.c:92:31: note: in expansion of macro 'XPAR_AXI_GPIO_0_DEVICE_ID'
+ #define GPIO_OUTPUT_DEVICE_ID XPAR_AXI_GPIO_0_DEVICE_ID
+                               ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/xgpio_tapp_example.c:104:23: note: in expansion of macro 'GPIO_OUTPUT_DEVICE_ID'
+ int GpioOutputExample(GPIO_OUTPUT_DEVICE_ID,GPIO_BITWIDTH);
+                       ^~~~~~~~~~~~~~~~~~~~~
+../src/xgpio_tapp_example.c:82:23: error: expected declaration specifiers or '...' before numeric constant
+ #define GPIO_BITWIDTH 4 /* This is the width of the GPIO */
+                       ^
+../src/xgpio_tapp_example.c:104:45: note: in expansion of macro 'GPIO_BITWIDTH'
+ int GpioOutputExample(GPIO_OUTPUT_DEVICE_ID,GPIO_BITWIDTH);
+                                             ^~~~~~~~~~~~~
+../src/xgpio_tapp_example.c: In function 'main':
+../src/xgpio_tapp_example.c:140:11: warning: implicit declaration of function 'GpioOutputExample'; did you mean 'GpioInputExample'? [-Wimplicit-function-declaration]
+  Status = GpioOutputExample(GPIO_OUTPUT_DEVICE_ID, GPIO_BITWIDTH);
+           ^~~~~~~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/xgpio_tapp_example.o' failed
+           GpioInputExample
+../src/xgpio_tapp_example.c: At top level:
+../src/xgpio_tapp_example.c:178:5: error: conflicting types for 'GpioOutputExample'
+ int GpioOutputExample(u16 DeviceId, u32 GpioWidth)
+     ^~~~~~~~~~~~~~~~~
+../src/xgpio_tapp_example.c:179:1: note: an argument type that has a default promotion can't match an empty parameter name list declaration
+ {
+ ^
+../src/xgpio_tapp_example.c:140:11: note: previous implicit declaration of 'GpioOutputExample' was here
+  Status = GpioOutputExample(GPIO_OUTPUT_DEVICE_ID, GPIO_BITWIDTH);
+           ^~~~~~~~~~~~~~~~~
+make: *** [src/xgpio_tapp_example.o] Error 1
+13:24:18 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+Finished building: ../src/xgpio_tapp_example.c
+ 
+Building target: gpiotest_xgpio_tapp_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_tapp_example_1.elf"  ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_tapp_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_tapp_example_1.elf  |tee "gpiotest_xgpio_tapp_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24172	   1168	  22616	  47956	   bb54	gpiotest_xgpio_tapp_example_1.elf
+Finished building: gpiotest_xgpio_tapp_example_1.elf.size
+ 
+13:24:43 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+../src/xgpio_tapp_example.c:82:23: error: expected ';', ',' or ')' before numeric constant
+ #define GPIO_BITWIDTH 16 /* This is the width of the GPIO */
+                       ^
+../src/xgpio_tapp_example.c:104:41: note: in expansion of macro 'GPIO_BITWIDTH'
+ int GpioOutputExample(u16 DeviceId, u32 GPIO_BITWIDTH);
+                                         ^~~~~~~~~~~~~
+../src/xgpio_tapp_example.c: In function 'main':
+../src/xgpio_tapp_example.c:140:11: warning: implicit declaration of function 'GpioOutputExample'; did you mean 'GpioInputExample'? [-Wimplicit-function-declaration]
+  Status = GpioOutputExample(GPIO_OUTPUT_DEVICE_ID, GPIO_BITWIDTH);
+           ^~~~~~~~~~~~~~~~~
+           GpioInputExample
+../src/xgpio_tapp_example.c: At top level:
+../src/xgpio_tapp_example.c:178:5: error: conflicting types for 'GpioOutputExample'
+ int GpioOutputExample(u16 DeviceId, u32 GpioWidth)
+     ^~~~~~~~~~~~~~~~~
+../src/xgpio_tapp_example.c:179:1: note: an argument type that has a default promotion can't match an empty parameter name list declaration
+ {
+ ^
+../src/xgpio_tapp_example.c:140:11: note: previous implicit declaration of 'GpioOutputExample' was here
+  Status = GpioOutputExample(GPIO_OUTPUT_DEVICE_ID, GPIO_BITWIDTH);
+           ^~~~~~~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/xgpio_tapp_example.o' failed
+make: *** [src/xgpio_tapp_example.o] Error 1
+13:24:51 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+Finished building: ../src/xgpio_tapp_example.c
+ 
+Building target: gpiotest_xgpio_tapp_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_tapp_example_1.elf"  ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_tapp_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_tapp_example_1.elf  |tee "gpiotest_xgpio_tapp_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24172	   1168	  22616	  47956	   bb54	gpiotest_xgpio_tapp_example_1.elf
+Finished building: gpiotest_xgpio_tapp_example_1.elf.size
+ 
+13:26:06 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+../src/xgpio_tapp_example.c:104:35: error: expected ';', ',' or ')' before '=' token
+ int GpioOutputExample(u16 DeviceId=0, u32 GpioWidth=4);
+                                   ^
+../src/xgpio_tapp_example.c:106:34: error: expected ';', ',' or ')' before '=' token
+ int GpioInputExample(u16 DeviceId=0, u32 *DataRead);
+                                  ^
+../src/xgpio_tapp_example.c: In function 'main':
+../src/xgpio_tapp_example.c:140:11: warning: implicit declaration of function 'GpioOutputExample' [-Wimplicit-function-declaration]
+  Status = GpioOutputExample(GPIO_OUTPUT_DEVICE_ID, GPIO_BITWIDTH);
+           ^~~~~~~~~~~~~~~~~
+../src/xgpio_tapp_example.c:146:11: warning: implicit declaration of function 'GpioInputExample' [-Wimplicit-function-declaration]
+  Status = GpioInputExample(GPIO_INPUT_DEVICE_ID, &InputData);
+           ^~~~~~~~~~~~~~~~
+../src/xgpio_tapp_example.c: At top level:
+../src/xgpio_tapp_example.c:178:5: error: conflicting types for 'GpioOutputExample'
+ int GpioOutputExample(u16 DeviceId, u32 GpioWidth)
+     ^~~~~~~~~~~~~~~~~
+../src/xgpio_tapp_example.c:179:1: note: an argument type that has a default promotion can't match an empty parameter name list declaration
+ {
+ ^
+../src/xgpio_tapp_example.c:140:11: note: previous implicit declaration of 'GpioOutputExample' was here
+  Status = GpioOutputExample(GPIO_OUTPUT_DEVICE_ID, GPIO_BITWIDTH);
+           ^~~~~~~~~~~~~~~~~
+../src/xgpio_tapp_example.c:250:5: error: conflicting types for 'GpioInputExample'
+ int GpioInputExample(u16 DeviceId, u32 *DataRead)
+     ^~~~~~~~~~~~~~~~
+../src/xgpio_tapp_example.c:251:1: note: an argument type that has a default promotion can't match an empty parameter name list declaration
+ {
+ ^
+../src/xgpio_tapp_example.c:146:11: note: previous implicit declaration of 'GpioInputExample' was here
+src/subdir.mk:21: recipe for target 'src/xgpio_tapp_example.o' failed
+  Status = GpioInputExample(GPIO_INPUT_DEVICE_ID, &InputData);
+           ^~~~~~~~~~~~~~~~
+make: *** [src/xgpio_tapp_example.o] Error 1
+13:26:20 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+../src/xgpio_tapp_example.c:104:50: error: expected ';', ',' or ')' before '=' token
+ int GpioOutputExample(u16 DeviceId, u32 GpioWidth=4);
+                                                  ^
+../src/xgpio_tapp_example.c: In function 'main':
+../src/xgpio_tapp_example.c:140:11: warning: implicit declaration of function 'GpioOutputExample'; did you mean 'GpioInputExample'? [-Wimplicit-function-declaration]
+  Status = GpioOutputExample(GPIO_OUTPUT_DEVICE_ID, GPIO_BITWIDTH);
+           ^~~~~~~~~~~~~~~~~
+           GpioInputExample
+../src/xgpio_tapp_example.c: At top level:
+../src/xgpio_tapp_example.c:178:5: error: conflicting types for 'GpioOutputExample'
+ int GpioOutputExample(u16 DeviceId, u32 GpioWidth)
+     ^~~~~~~~~~~~~~~~~
+../src/xgpio_tapp_example.c:179:1: note: an argument type that has a default promotion can't match an empty parameter name list declaration
+ {
+ ^
+../src/xgpio_tapp_example.c:140:11: note: previous implicit declaration of 'GpioOutputExample' was here
+  Status = GpioOutputExample(GPIO_OUTPUT_DEVICE_ID, GPIO_BITWIDTH);
+           ^~~~~~~~~~~~~~~~~
+make: *** [src/xgpio_tapp_example.o] Error 1
+src/subdir.mk:21: recipe for target 'src/xgpio_tapp_example.o' failed
+13:26:23 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+Finished building: ../src/xgpio_tapp_example.c
+ 
+Building target: gpiotest_xgpio_tapp_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_tapp_example_1.elf"  ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_tapp_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_tapp_example_1.elf  |tee "gpiotest_xgpio_tapp_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24172	   1168	  22616	  47956	   bb54	gpiotest_xgpio_tapp_example_1.elf
+Finished building: gpiotest_xgpio_tapp_example_1.elf.size
+ 
+13:27:00 **** Build of configuration Debug for project gpiotest_xgpio_intr_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_intr_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_intr_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_intr_tapp_example.d" -MT"src/xgpio_intr_tapp_example.o" -o "src/xgpio_intr_tapp_example.o" "../src/xgpio_intr_tapp_example.c"
+../src/xgpio_intr_tapp_example.c: In function 'main':
+../src/xgpio_intr_tapp_example.c:92:33: error: 'XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR' undeclared (first use in this function); did you mean 'XPAR_AXI_GPIO_0_DEVICE_ID'?
+  #define INTC_GPIO_INTERRUPT_ID XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+                                 ^
+../src/xgpio_intr_tapp_example.c:92:33: note: in definition of macro 'INTC_GPIO_INTERRUPT_ID'
+  #define INTC_GPIO_INTERRUPT_ID XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/xgpio_intr_tapp_example.c:92:33: note: each undeclared identifier is reported only once for each function it appears in
+  #define INTC_GPIO_INTERRUPT_ID XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+                                 ^
+../src/xgpio_intr_tapp_example.c:92:33: note: in definition of macro 'INTC_GPIO_INTERRUPT_ID'
+  #define INTC_GPIO_INTERRUPT_ID XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/xgpio_intr_tapp_example.o' failed
+make: *** [src/xgpio_intr_tapp_example.o] Error 1
+13:27:51 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+Finished building: ../src/xgpio_tapp_example.c
+ 
+Building target: gpiotest_xgpio_tapp_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_tapp_example_1.elf"  ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_tapp_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_tapp_example_1.elf  |tee "gpiotest_xgpio_tapp_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24172	   1168	  22616	  47956	   bb54	gpiotest_xgpio_tapp_example_1.elf
+Finished building: gpiotest_xgpio_tapp_example_1.elf.size
+ 
+13:27:58 **** Incremental Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:28:14 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+Finished building: ../src/xgpio_tapp_example.c
+ 
+Building target: gpiotest_xgpio_tapp_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_tapp_example_1.elf"  ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_tapp_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_tapp_example_1.elf  |tee "gpiotest_xgpio_tapp_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24172	   1168	  22616	  47956	   bb54	gpiotest_xgpio_tapp_example_1.elf
+Finished building: gpiotest_xgpio_tapp_example_1.elf.size
+ 
+13:28:19 **** Incremental Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:29:18 **** Incremental Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:30:32 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+Finished building: ../src/xgpio_tapp_example.c
+ 
+Building target: gpiotest_xgpio_tapp_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_tapp_example_1.elf"  ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_tapp_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_tapp_example_1.elf  |tee "gpiotest_xgpio_tapp_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24172	   1168	  22616	  47956	   bb54	gpiotest_xgpio_tapp_example_1.elf
+Finished building: gpiotest_xgpio_tapp_example_1.elf.size
+ 
+13:30:39 **** Incremental Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:32:01 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+../src/xgpio_tapp_example.c: In function 'GpioInputExample':
+../src/xgpio_tapp_example.c:261:5: error: expected ';' before 'return'
+     return XST_FAILURE;
+     ^~~~~~
+make: *** [src/xgpio_tapp_example.o] Error 1
+src/subdir.mk:21: recipe for target 'src/xgpio_tapp_example.o' failed
+13:32:06 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+Finished building: ../src/xgpio_tapp_example.c
+ 
+Building target: gpiotest_xgpio_tapp_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_tapp_example_1.elf"  ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_tapp_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_tapp_example_1.elf  |tee "gpiotest_xgpio_tapp_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24188	   1168	  22616	  47972	   bb64	gpiotest_xgpio_tapp_example_1.elf
+Finished building: gpiotest_xgpio_tapp_example_1.elf.size
+ 
+13:32:13 **** Incremental Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:32:41 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+Finished building: ../src/xgpio_tapp_example.c
+ 
+Building target: gpiotest_xgpio_tapp_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_tapp_example_1.elf"  ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_tapp_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_tapp_example_1.elf  |tee "gpiotest_xgpio_tapp_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24172	   1168	  22616	  47956	   bb54	gpiotest_xgpio_tapp_example_1.elf
+Finished building: gpiotest_xgpio_tapp_example_1.elf.size
+ 
+13:32:50 **** Incremental Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:33:11 **** Incremental Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:33:13 **** Incremental Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:33:22 **** Incremental Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:33:32 **** Incremental Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:33:45 **** Incremental Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:34:01 **** Incremental Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:36:50 **** Auto Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+Finished building: ../src/xgpio_tapp_example.c
+ 
+Building target: gpiotest_xgpio_tapp_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_tapp_example_1.elf"  ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_tapp_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_tapp_example_1.elf  |tee "gpiotest_xgpio_tapp_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24172	   1168	  22616	  47956	   bb54	gpiotest_xgpio_tapp_example_1.elf
+Finished building: gpiotest_xgpio_tapp_example_1.elf.size
+ 
+13:36:55 **** Incremental Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+09:32:19 **** Build of project gpiotest ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_0/src
+make -C ps7_cortexa9_0/libsrc/xilffs_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_0/src
+make -C ps7_cortexa9_0/libsrc/xilffs_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling XilFFs Library
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpio
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+09:32:31 **** Build of configuration Debug for project bootloadergpio ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/fsbl_hooks.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/home/daniel/Documents/VHDL/zynqtest/zynqtest.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_hooks.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_hooks.d" -MT"src/fsbl_hooks.o" -o "src/fsbl_hooks.o" "../src/fsbl_hooks.c"
+Finished building: ../src/fsbl_hooks.c
+ 
+Building file: ../src/image_mover.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/home/daniel/Documents/VHDL/zynqtest/zynqtest.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/image_mover.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/image_mover.d" -MT"src/image_mover.o" -o "src/image_mover.o" "../src/image_mover.c"
+Finished building: ../src/image_mover.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/home/daniel/Documents/VHDL/zynqtest/zynqtest.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:137:0:
+../../gpiotest/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building file: ../src/md5.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/home/daniel/Documents/VHDL/zynqtest/zynqtest.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/md5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/md5.d" -MT"src/md5.o" -o "src/md5.o" "../src/md5.c"
+Finished building: ../src/md5.c
+ 
+Building file: ../src/nand.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/home/daniel/Documents/VHDL/zynqtest/zynqtest.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nand.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/nand.d" -MT"src/nand.o" -o "src/nand.o" "../src/nand.c"
+Finished building: ../src/nand.c
+ 
+Building file: ../src/nor.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/home/daniel/Documents/VHDL/zynqtest/zynqtest.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nor.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/nor.d" -MT"src/nor.o" -o "src/nor.o" "../src/nor.c"
+Finished building: ../src/nor.c
+ 
+Building file: ../src/pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/home/daniel/Documents/VHDL/zynqtest/zynqtest.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/pcap.d" -MT"src/pcap.o" -o "src/pcap.o" "../src/pcap.c"
+In file included from ../src/pcap.c:100:0:
+../../gpiotest/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/pcap.c
+ 
+Building file: /home/daniel/Documents/VHDL/zynqtest/zynqtest.sdk/design_1_wrapper_hw_platform_0/ps7_init.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/home/daniel/Documents/VHDL/zynqtest/zynqtest.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/ps7_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.o" -o "src/ps7_init.o" "/home/daniel/Documents/VHDL/zynqtest/zynqtest.sdk/design_1_wrapper_hw_platform_0/ps7_init.c"
+Finished building: /home/daniel/Documents/VHDL/zynqtest/zynqtest.sdk/design_1_wrapper_hw_platform_0/ps7_init.c
+ 
+Building file: ../src/qspi.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/home/daniel/Documents/VHDL/zynqtest/zynqtest.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/qspi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/qspi.d" -MT"src/qspi.o" -o "src/qspi.o" "../src/qspi.c"
+Finished building: ../src/qspi.c
+ 
+Building file: ../src/sd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/home/daniel/Documents/VHDL/zynqtest/zynqtest.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/sd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/sd.d" -MT"src/sd.o" -o "src/sd.o" "../src/sd.c"
+Finished building: ../src/sd.c
+ 
+Building target: bootloadergpio.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "bootloadergpio.elf"  ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: bootloadergpio.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size bootloadergpio.elf  |tee "bootloadergpio.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81496	  11448	  74712	 167656	  28ee8	bootloadergpio.elf
+Finished building: bootloadergpio.elf.size
+ 
+09:32:33 **** Build of configuration Debug for project gpiotest_xgpio_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_example.d" -MT"src/xgpio_example.o" -o "src/xgpio_example.o" "../src/xgpio_example.c"
+Finished building: ../src/xgpio_example.c
+ 
+Building target: gpiotest_xgpio_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_example_1.elf"  ./src/xgpio_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_example_1.elf  |tee "gpiotest_xgpio_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23724	   1168	  22600	  47492	   b984	gpiotest_xgpio_example_1.elf
+Finished building: gpiotest_xgpio_example_1.elf.size
+ 
+09:32:34 **** Build of configuration Debug for project gpiotest_xgpio_tapp_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xgpio_tapp_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.o" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+Finished building: ../src/xgpio_tapp_example.c
+ 
+Building target: gpiotest_xgpio_tapp_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "gpiotest_xgpio_tapp_example_1.elf"  ./src/xgpio_tapp_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: gpiotest_xgpio_tapp_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size gpiotest_xgpio_tapp_example_1.elf  |tee "gpiotest_xgpio_tapp_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24172	   1168	  22616	  47956	   bb54	gpiotest_xgpio_tapp_example_1.elf
+Finished building: gpiotest_xgpio_tapp_example_1.elf.size
+ 
+09:32:34 **** Build of configuration Debug for project holamundo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../gpiotest/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: holamundo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../gpiotest/ps7_cortexa9_0/lib -o "holamundo.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: holamundo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size holamundo.elf  |tee "holamundo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19348	   1144	  22568	  43060	   a834	holamundo.elf
+Finished building: holamundo.elf.size
+ 

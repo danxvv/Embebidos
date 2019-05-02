@@ -1,0 +1,26 @@
+VHDL "ROM_form.vhd", "p1.vhd", "p1"
+SET_MASK 	equ 	$00	
+
+led      dsout   $00	
+org	     $000	
+
+load     s2,$00
+
+inicio:
+
+load     s0,$01
+out      s0,led
+load     s1,$FF
+call     retardo
+load     s0,$00
+out      s0,led
+call     retardo
+jump     inicio
+
+retardo:
+
+sub      s1,$01
+comp     s1,s2
+jump     nz,retardo
+ret
+

@@ -1,0 +1,3 @@
+vhdl work "mainout.vhd"
+vhdl work "comp.vhd"
+vhdl work "main.vhd"

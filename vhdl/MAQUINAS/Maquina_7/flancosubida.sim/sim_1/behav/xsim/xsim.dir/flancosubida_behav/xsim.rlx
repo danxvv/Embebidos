@@ -1,0 +1,12 @@
+
+{ 
+    crc :  6566039975817396060  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 9f24aa1d61ac4a2682a5e3d51d6f7a73 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot flancosubida_behav xil_defaultlib.flancosubida" , 
+    buildDate : "Jun 14 2018" , 
+    buildTime : "20:07:38" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/flancosubida_behav/xsimk\"   \"xsim.dir/flancosubida_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/flancosubida_behav/obj/xsim_1.lnx64.o\" \"/opt/Xilinx/Vivado/2018.2/lib/lnx64.o/librdi_simulator_kernel.so\"  \"/opt/Xilinx/Vivado/2018.2/lib/lnx64.o/librdi_simbridge_kernel.so\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

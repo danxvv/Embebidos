@@ -1,0 +1,7 @@
+Running: xsim.dir/crucer_behav/xsimk -simmode gui -wdb crucer_behav.wdb -simrunnum 0 -socket 41809
+Design successfully loaded
+Design Loading Memory Usage: 42808 KB (Peak: 42808 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 133728 KB (Peak: 190080 KB)
+Simulation CPU Usage: 60 ms

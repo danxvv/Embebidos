@@ -1,0 +1,1 @@
+vhdtdtfi -prj pwm1 -o C:/Users/darko/OneDrive/Documentos/VH/pwm1/comp.vhi -module comp -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work comp.vhd 

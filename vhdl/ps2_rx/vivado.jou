@@ -1,0 +1,139 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Mar 28 18:48:03 2019
+# Process ID: 3412
+# Current directory: C:/Users/darko/Dropbox/VH/ps2_rx
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8724 C:\Users\darko\Dropbox\VH\ps2_rx\ps2_rx.xpr
+# Log file: C:/Users/darko/Dropbox/VH/ps2_rx/vivado.log
+# Journal file: C:/Users/darko/Dropbox/VH/ps2_rx\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/darko/Dropbox/VH/ps2_rx/ps2_rx.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source ps2_r.tcl
+restart
+step
+step
+step
+add_force {/ps2_r/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+add_force {/ps2_r/reset} -radix hex {1 0ns}
+add_force {/ps2_r/rx_en} -radix hex {0 0ns}
+add_force {/ps2_r/ps2_c} -radix hex {1 0ns} {0 35000000ps} -repeat_every 70000000ps
+add_force {/ps2_r/ps2_d} -radix hex {AC 0ns}
+add_force {/ps2_r/ps2_d} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/ps2_r/reset} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/ps2_r/rx_en} -radix hex {1 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+add_force {/ps2_r/ps2_d} -radix hex {1 0ns}
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+add_force {/ps2_r/ps2_d} -radix hex {0 0ns}
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+add_force {/ps2_r/ps2_d} -radix hex {1 0ns}
+run 100 us
+run 100 us
+run 100 us
+add_force {/ps2_r/ps2_d} -radix hex {0 0ns}
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+run 100 us
+save_wave_config {C:/Users/darko/Dropbox/VH/ps2_rx/ps2_r_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/darko/Dropbox/VH/ps2_rx/ps2_r_behav.wcfg
+set_property xsim.view C:/Users/darko/Dropbox/VH/ps2_rx/ps2_r_behav.wcfg [get_filesets sim_1]
+close_sim

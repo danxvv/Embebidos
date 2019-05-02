@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/Dropbox/VH/VIVADO/Maquina_4/Maquina_4.srcs/sources_1/new/maquina_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity maquina_4
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/Dropbox/VH/VIVADO/Maquina_4/Maquina_4.srcs/sim_1/new/tb_maquina.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity maquina_4_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/Dropbox/VH/VIVADO/Maquina_4/Maquina_4.srcs/sources_1/new/maquina_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity maquina_4

@@ -1,0 +1,5 @@
+vhdl work "minutos.vhd"
+vhdl work "horas.vhd"
+vhdl work "divisor.vhd"
+vhdl work "contseg.vhd"
+vhdl work "main.vhd"

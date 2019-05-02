@@ -1,0 +1,2 @@
+vhdl work "maquina.vhd"
+vhdl work "tb_m3.vhd"

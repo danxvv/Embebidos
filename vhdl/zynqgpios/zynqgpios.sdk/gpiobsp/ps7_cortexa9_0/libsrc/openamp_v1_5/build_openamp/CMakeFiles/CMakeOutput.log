@@ -1,0 +1,32 @@
+The target system is: Generic -  - arm
+The host system is: Linux - 4.18.0-17-generic - x86_64
+Determining if files stdatomic.h exist passed with the following output:
+Change Dir: /home/daniel/Documents/VHDL/zynqgpios/zynqgpios.sdk/gpiobsp/ps7_cortexa9_0/libsrc/openamp_v1_5/build_openamp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae17f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae17f.dir/build.make CMakeFiles/cmTC_ae17f.dir/build
+make[1]: Entering directory '/home/daniel/Documents/VHDL/zynqgpios/zynqgpios.sdk/gpiobsp/ps7_cortexa9_0/libsrc/openamp_v1_5/build_openamp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae17f.dir/CheckIncludeFiles.c.obj
+/tools/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc   -O2 -c -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra -I/home/daniel/Documents/VHDL/zynqgpios/zynqgpios.sdk/gpiobsp/ps7_cortexa9_0/include -Wall -Wextra -c   -o CMakeFiles/cmTC_ae17f.dir/CheckIncludeFiles.c.obj   -c /home/daniel/Documents/VHDL/zynqgpios/zynqgpios.sdk/gpiobsp/ps7_cortexa9_0/libsrc/openamp_v1_5/build_openamp/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ae17f
+/tools/Xilinx/SDK/2018.3/tps/lnx64/cmake-3.3.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae17f.dir/link.txt --verbose=1
+/tools/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc  -O2 -c -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra -I/home/daniel/Documents/VHDL/zynqgpios/zynqgpios.sdk/gpiobsp/ps7_cortexa9_0/include -Wall -Wextra -c    CMakeFiles/cmTC_ae17f.dir/CheckIncludeFiles.c.obj  -o cmTC_ae17f  
+arm-none-eabi-gcc: warning: CMakeFiles/cmTC_ae17f.dir/CheckIncludeFiles.c.obj: linker input file unused because linking not done
+make[1]: Leaving directory '/home/daniel/Documents/VHDL/zynqgpios/zynqgpios.sdk/gpiobsp/ps7_cortexa9_0/libsrc/openamp_v1_5/build_openamp/CMakeFiles/CMakeTmp'
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /home/daniel/Documents/VHDL/zynqgpios/zynqgpios.sdk/gpiobsp/ps7_cortexa9_0/libsrc/openamp_v1_5/build_openamp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_94d19/fast"
+/usr/bin/make -f CMakeFiles/cmTC_94d19.dir/build.make CMakeFiles/cmTC_94d19.dir/build
+make[1]: Entering directory '/home/daniel/Documents/VHDL/zynqgpios/zynqgpios.sdk/gpiobsp/ps7_cortexa9_0/libsrc/openamp_v1_5/build_openamp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94d19.dir/CheckIncludeFiles.c.obj
+/tools/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc   -O2 -c -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra -I/home/daniel/Documents/VHDL/zynqgpios/zynqgpios.sdk/gpiobsp/ps7_cortexa9_0/include -Wall -Wextra -c   -o CMakeFiles/cmTC_94d19.dir/CheckIncludeFiles.c.obj   -c /home/daniel/Documents/VHDL/zynqgpios/zynqgpios.sdk/gpiobsp/ps7_cortexa9_0/libsrc/openamp_v1_5/build_openamp/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_94d19
+/tools/Xilinx/SDK/2018.3/tps/lnx64/cmake-3.3.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94d19.dir/link.txt --verbose=1
+/tools/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc  -O2 -c -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra -I/home/daniel/Documents/VHDL/zynqgpios/zynqgpios.sdk/gpiobsp/ps7_cortexa9_0/include -Wall -Wextra -c    CMakeFiles/cmTC_94d19.dir/CheckIncludeFiles.c.obj  -o cmTC_94d19  
+arm-none-eabi-gcc: warning: CMakeFiles/cmTC_94d19.dir/CheckIncludeFiles.c.obj: linker input file unused because linking not done
+make[1]: Leaving directory '/home/daniel/Documents/VHDL/zynqgpios/zynqgpios.sdk/gpiobsp/ps7_cortexa9_0/libsrc/openamp_v1_5/build_openamp/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,26 @@
+V3 15
+FL C:/Users/darko/OneDrive/Documentos/VH/contador/main_cont.vhd 2018/10/15.11:48:16 P.20131013
+EN work/main_cont 1539622283 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/contador/main_cont.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/main_cont/Behavioral 1539622284 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/contador/main_cont.vhd \
+      EN work/main_cont 1539622283
+FL C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.vhd 2018/10/15.11:50:51 P.20131013
+EN work/maincontdiv 1539622287 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/maincontdiv/Behavioral 1539622288 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.vhd \
+      EN work/maincontdiv 1539622287 CP main CP main_cont CP cod
+FL C:/Users/darko/OneDrive/Documentos/VH/div_tarea/main.vhd 2018/10/15.10:57:26 P.20131013
+EN work/main 1539622281 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/div_tarea/main.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/main/Behavioral 1539622282 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/div_tarea/main.vhd EN work/main 1539622281
+FL C:/Users/darko/OneDrive/Documentos/VH/practica1/cod.vhd 2018/10/15.11:02:02 P.20131013
+EN work/cod 1539622285 FL C:/Users/darko/OneDrive/Documentos/VH/practica1/cod.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/cod/Behavioral 1539622286 \
+      FL C:/Users/darko/OneDrive/Documentos/VH/practica1/cod.vhd EN work/cod 1539622285

@@ -1,0 +1,26 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/darko/OneDrive/Documentos/VH/contdiv/tb_con_isim_beh.exe -prj C:/Users/darko/OneDrive/Documentos/VH/contdiv/tb_con_beh.prj work.tb_con 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/darko/OneDrive/Documentos/VH/contdiv/../practica1/cod.vhd" into library work
+Parsing VHDL file "C:/Users/darko/OneDrive/Documentos/VH/contdiv/../div_tarea/main.vhd" into library work
+Parsing VHDL file "C:/Users/darko/OneDrive/Documentos/VH/contdiv/../contador/main_cont.vhd" into library work
+Parsing VHDL file "C:/Users/darko/OneDrive/Documentos/VH/contdiv/maincontdiv.vhd" into library work
+Parsing VHDL file "C:/Users/darko/OneDrive/Documentos/VH/contdiv/tb_con.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity main [main_default]
+Compiling architecture behavioral of entity main_cont [main_cont_default]
+Compiling architecture behavioral of entity cod [cod_default]
+Compiling architecture behavioral of entity maincontdiv [maincontdiv_default]
+Compiling architecture behavior of entity tb_con
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 12 VHDL Units
+Built simulation executable C:/Users/darko/OneDrive/Documentos/VH/contdiv/tb_con_isim_beh.exe
+Fuse Memory Usage: 34480 KB
+Fuse CPU Usage: 1155 ms

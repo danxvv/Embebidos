@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Nov 28 20:22:59 2018
+# Process ID: 30926
+# Current directory: /home/daniel/Dropbox/VH/test/test.runs/synth_1
+# Command line: vivado -log seven_segment_display_VHDL.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source seven_segment_display_VHDL.tcl
+# Log file: /home/daniel/Dropbox/VH/test/test.runs/synth_1/seven_segment_display_VHDL.vds
+# Journal file: /home/daniel/Dropbox/VH/test/test.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source seven_segment_display_VHDL.tcl -notrace

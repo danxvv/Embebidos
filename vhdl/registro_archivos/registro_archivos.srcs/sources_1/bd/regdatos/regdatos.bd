@@ -1,0 +1,58 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7z020clg400-1",
+      "name": "regdatos",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3"
+    },
+    "design_tree": {
+      "registrodatos_0": ""
+    },
+    "components": {
+      "registrodatos_0": {
+        "vlnv": "xilinx.com:module_ref:registrodatos:1.0",
+        "xci_name": "regdatos_registrodatos_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "registrodatos",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "wen": {
+            "direction": "I"
+          },
+          "waddr": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "raddr": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "wdata": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "rdata": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      }
+    }
+  }
+}

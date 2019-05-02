@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Feb 22 08:55:42 2019
+# Process ID: 4580
+# Current directory: /home/david/Dropbox/VH/maquinas_embebidos/bomba/bomba.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/david/Dropbox/VH/maquinas_embebidos/bomba/bomba.sim/sim_1/behav/xsim/xsim.dir/bomba_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/david/Dropbox/VH/maquinas_embebidos/bomba/bomba.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/david/Dropbox/VH/maquinas_embebidos/bomba/bomba.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/david/Dropbox/VH/maquinas_embebidos/bomba/bomba.sim/sim_1/behav/xsim/xsim.dir/bomba_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 383.359 ; gain = 0.000 ; free physical = 2243 ; free virtual = 5211
+INFO: [Common 17-206] Exiting Webtalk at Fri Feb 22 08:55:50 2019...

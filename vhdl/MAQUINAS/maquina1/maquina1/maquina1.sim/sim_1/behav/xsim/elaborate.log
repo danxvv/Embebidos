@@ -1,0 +1,5 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto e7ff6d6affa849aa99cf18d520f420bc --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot unknown_behav xil_defaultlib.unknown -log elaborate.log 
+Using 8 slave threads.
+ERROR: [XSIM 43-3225] Cannot find design unit xil_defaultlib.unknown in library work located at xsim.dir/work.

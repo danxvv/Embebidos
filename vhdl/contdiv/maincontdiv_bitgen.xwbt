@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\darko\OneDrive\Documentos\VH\contdiv\maincontdiv.ncd
+OUTFILE=C:\Users\darko\OneDrive\Documentos\VH\contdiv\maincontdiv.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\darko\OneDrive\Documentos\VH\contdiv
+LICENSE=WebPack
+USER_INFO=211312581_0_0_271

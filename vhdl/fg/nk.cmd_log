@@ -1,0 +1,10 @@
+vhdtdtfi -lib work nk.vhd -prj fg -o nk.spl -module nk -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xbr nk.spl C:/Users/darko/OneDrive/Documentos/VH/fg/nk.sym 
+xst -intstyle ise -ifn "C:/Users/darko/OneDrive/Documentos/VH/fg/nk.xst" -ofn "C:/Users/darko/OneDrive/Documentos/VH/fg/nk.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ccc.ucf -p xc2c256-TQ144-7 nk.ngc nk.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc ccc.ucf -p xc2c256-TQ144-7 nk.ngc nk.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc ccc.ucf -p xc2c256-TQ144-7 nk.ngc nk.ngd  
+cpldfit -intstyle ise -p xc2c256-7-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 nk.ngd 
+XSLTProcess nk_build.xml 
+tsim -intstyle ise nk nk.nga 
+taengine -intstyle ise -f nk -w --format html1 -l nk_html/tim/timing_report.htm 

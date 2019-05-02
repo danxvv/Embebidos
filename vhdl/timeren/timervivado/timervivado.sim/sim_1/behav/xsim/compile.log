@@ -1,0 +1,16 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/darko/OneDrive/Documentos/VH/timeren/timervivado/timervivado.srcs/sources_1/imports/timeren/minutos.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity minutos
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/darko/OneDrive/Documentos/VH/timeren/timervivado/timervivado.srcs/sources_1/imports/timeren/horas.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity horas
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/darko/OneDrive/Documentos/VH/timeren/timervivado/timervivado.srcs/sources_1/imports/timeren/divisor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity divisor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/darko/OneDrive/Documentos/VH/timeren/timervivado/timervivado.srcs/sources_1/imports/timeren/contseg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity contseg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/darko/OneDrive/Documentos/VH/timeren/timervivado/timervivado.srcs/sources_1/imports/timeren/main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity main
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/darko/OneDrive/Documentos/VH/timeren/timervivado/timervivado.srcs/sim_1/imports/timeren/tb_contseg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_contseg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/darko/OneDrive/Documentos/VH/timeren/timervivado/timervivado.srcs/sim_1/imports/timeren/tb_main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_main
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/darko/OneDrive/Documentos/VH/timeren/timervivado/timervivado.srcs/sim_1/imports/timeren/entb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity entb

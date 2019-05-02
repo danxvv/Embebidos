@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Mar 20 15:09:59 2019
+# Process ID: 8157
+# Current directory: /home/daniel/Documents/VHDL/pwm_pico/pwm_pico.runs/impl_1
+# Command line: vivado -log main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source main.tcl -notrace
+# Log file: /home/daniel/Documents/VHDL/pwm_pico/pwm_pico.runs/impl_1/main.vdi
+# Journal file: /home/daniel/Documents/VHDL/pwm_pico/pwm_pico.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace

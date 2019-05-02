@@ -1,0 +1,7 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 49cdb94126bc487994cba14d85448407 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot seven_segment_display_VHDL_behav xil_defaultlib.seven_segment_display_VHDL -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [/home/daniel/Dropbox/VH/VIVADO/reloj/reloj.srcs/sources_1/new/reloj.vhd:31]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit seven_segment_display_vhdl in library work failed.

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/david/Dropbox/VH/div_tarea/main_isim_beh.exe" -prj "/home/david/Dropbox/VH/div_tarea/main_beh.prj" "work.main" 

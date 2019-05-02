@@ -1,0 +1,70 @@
+SET_MASK 	equ 	$00	
+;&&&&&&PORT ID &&&&&&&&&&& DIRECCIONES DE ENTRADAS Y SALIDAS QUE PUEDEN TENER &&&&&
+
+contador      dsout   $00   ;&&& EL SIGNO $ INDICA VALOR HEXADECIMAL	
+sensor	 dsin	 $01   ; 00
+		  org	     $000
+
+inicio:
+		load	 s0, $80
+		out		 s0, contador
+		in		 s1, sensor ;Lee una entrada
+		comp     s1, $01
+		jump     z, entrando
+		comp     s1, $02
+		jump     z, saliendo
+		comp	 s0, $85
+		jump	 z, lleno
+		jump	 $001
+
+entrando:
+		in		 s1, sensor
+		comp	 s1, $03
+		jump	 nz, $00A
+		in		 s1, sensor
+		comp	 s1, $02
+		jump	 nz, $00D
+		in		 s1, sensor
+		comp	 s1, $00
+		jump	 nz, $010
+		add	     s0, $01
+	    out		 s0, contador
+	    jump	 $001
+
+saliendo:
+		in		 s1, sensor
+		comp	 s1, $03
+		jump	 nz, $016
+		in		 s1, sensor
+		comp	 s1, $01
+		jump	 nz, $019
+		in		 s1, sensor
+		comp	 s1, $00
+		jump	 nz, $01C
+		sub	     s0, $01
+	    out		 s0, contador
+	    jump	 $001
+
+lleno:
+	  	load	 s0, $40
+	  	out		 s0, contador
+	  	in		 s1,sensor
+	  	comp	 s1, $00
+	  	jump	 z, $022
+	  	comp	 s1, $02
+	  	jump	 z, $029
+	  	
+	  	
+saliendolleno:
+		in		 s1, sensor
+		comp	 s1, $03
+		jump	 nz, $029
+		in		 s1, sensor
+		comp	 s1, $01
+		jump	 nz, $02C
+		in		 s1, sensor
+		comp	 s1, $00
+		jump	 nz, $02F
+		load	 s0, $84
+	    out		 s0, contador
+	    jump	 $001

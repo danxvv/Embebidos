@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/darko/OneDrive/Documentos/VH/contdiv/tb_con_isim_beh.exe" -prj "C:/Users/darko/OneDrive/Documentos/VH/contdiv/tb_con_beh.prj" "work.tb_con" 
