@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/Documents/VHDL/uartvhdl/uartvhdl.srcs/sources_1/new/baudios.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'baudios'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/Documents/VHDL/uartvhdl/uartvhdl.srcs/sources_1/bd/uartsys/hdl/uartsys_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uartsys_wrapper'

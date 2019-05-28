@@ -1,0 +1,28 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 9c176125445b41c8955723cab3416c3a --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot uartsys_wrapper_behav xil_defaultlib.uartsys_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.baudios [baudios_default]
+Compiling architecture uartsys_baudios_0_0_arch of entity xil_defaultlib.uartsys_baudios_0_0 [uartsys_baudios_0_0_default]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=8.0,C...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.uartsys_clk_wiz_0_0_clk_wiz
+Compiling module xil_defaultlib.uartsys_clk_wiz_0_0
+Compiling architecture behavioral of entity xil_defaultlib.uartrx [uartrx_default]
+Compiling architecture uartsys_uartrx_0_0_arch of entity xil_defaultlib.uartsys_uartrx_0_0 [uartsys_uartrx_0_0_default]
+Compiling architecture structure of entity xil_defaultlib.uartsys [uartsys_default]
+Compiling architecture structure of entity xil_defaultlib.uartsys_wrapper
+Built simulation snapshot uartsys_wrapper_behav

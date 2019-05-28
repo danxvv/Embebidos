@@ -1,0 +1,15 @@
+0.6
+2018.3
+Dec  6 2018
+23:39:36
+/home/daniel/Documents/VHDL/uartvhdl/uartvhdl.ip_user_files/bd/uartsys/ip/uartsys_baudios_0_0/sim/uartsys_baudios_0_0.vhd,1557502466,vhdl,,,,uartsys_baudios_0_0,,,,,,,,
+/home/daniel/Documents/VHDL/uartvhdl/uartvhdl.ip_user_files/bd/uartsys/ip/uartsys_clk_wiz_0_0/uartsys_clk_wiz_0_0.v,1557460587,verilog,,,,uartsys_clk_wiz_0_0,,,../../../../uartvhdl.srcs/sources_1/bd/uartsys/ipshared/85a3,,,,,
+/home/daniel/Documents/VHDL/uartvhdl/uartvhdl.ip_user_files/bd/uartsys/ip/uartsys_clk_wiz_0_0/uartsys_clk_wiz_0_0_clk_wiz.v,1557460587,verilog,,/home/daniel/Documents/VHDL/uartvhdl/uartvhdl.ip_user_files/bd/uartsys/ip/uartsys_clk_wiz_0_0/uartsys_clk_wiz_0_0.v,,uartsys_clk_wiz_0_0_clk_wiz,,,../../../../uartvhdl.srcs/sources_1/bd/uartsys/ipshared/85a3,,,,,
+/home/daniel/Documents/VHDL/uartvhdl/uartvhdl.ip_user_files/bd/uartsys/ip/uartsys_uartrx_0_0/sim/uartsys_uartrx_0_0.vhd,1557454248,vhdl,,,,uartsys_uartrx_0_0,,,,,,,,
+/home/daniel/Documents/VHDL/uartvhdl/uartvhdl.ip_user_files/bd/uartsys/sim/uartsys.vhd,1557502465,vhdl,,,,uartsys,,,,,,,,
+/home/daniel/Documents/VHDL/uartvhdl/uartvhdl.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+/home/daniel/Documents/VHDL/uartvhdl/uartvhdl.srcs/sources_1/bd/uartsys/hdl/uartsys_wrapper.vhd,1557504124,vhdl,,,,uartsys_wrapper,,,,,,,,
+/home/daniel/Documents/VHDL/uartvhdl/uartvhdl.srcs/sources_1/new/baudios.vhd,1557504109,vhdl,,,,baudios,,,,,,,,
+/home/daniel/Documents/VHDL/uartvhdl/uartvhdl.srcs/sources_1/new/interfaz.vhd,1557235833,vhdl,,,,interfaz,,,,,,,,
+/home/daniel/Documents/VHDL/uartvhdl/uartvhdl.srcs/sources_1/new/registerbuff.vhd,1557236436,vhdl,,,,registerbuff,,,,,,,,
+/home/daniel/Documents/VHDL/uartvhdl/uartvhdl.srcs/sources_1/new/uartrx.vhd,1557454219,vhdl,,,,uartrx,,,,,,,,

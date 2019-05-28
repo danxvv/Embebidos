@@ -1,0 +1,435 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xED1BE74A1AA215A0",
+      "device": "xc7z020clg400-1",
+      "name": "uartsys",
+      "synth_flow_mode": "None",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "uartrx_0": "",
+      "clk_wiz_0": "",
+      "uarttx_0": "",
+      "baudios_0": "",
+      "fifo_generator_0": "",
+      "fifo_generator_1": ""
+    },
+    "ports": {
+      "rx_0": {
+        "direction": "I"
+      },
+      "reset": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "sys_clock_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "uartsys_sys_clock_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "125000000"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000"
+          }
+        }
+      },
+      "full_0": {
+        "direction": "O"
+      },
+      "empty_0": {
+        "direction": "O"
+      },
+      "dout_0": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "rd_en_0": {
+        "direction": "I"
+      },
+      "tx_0": {
+        "direction": "O"
+      },
+      "full_1": {
+        "direction": "O"
+      },
+      "din_1": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "wr_en_0": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "uartrx_0": {
+        "vlnv": "xilinx.com:module_ref:uartrx:1.0",
+        "xci_name": "uartsys_uartrx_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "uartrx",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              },
+              "FREQ_HZ": {
+                "value": "50000000"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_HIGH",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "s_tick": {
+            "direction": "I"
+          },
+          "rx": {
+            "direction": "I"
+          },
+          "rx_done": {
+            "direction": "O"
+          },
+          "dout": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "uartsys_clk_wiz_0_0",
+        "parameters": {
+          "CLKOUT1_JITTER": {
+            "value": "143.688"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "50.000"
+          },
+          "CLK_IN1_BOARD_INTERFACE": {
+            "value": "sys_clock"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "20.000"
+          },
+          "MMCM_DIVCLK_DIVIDE": {
+            "value": "1"
+          },
+          "RESET_PORT": {
+            "value": "resetn"
+          },
+          "RESET_TYPE": {
+            "value": "ACTIVE_HIGH"
+          },
+          "USE_BOARD_FLOW": {
+            "value": "true"
+          },
+          "USE_LOCKED": {
+            "value": "false"
+          },
+          "USE_RESET": {
+            "value": "false"
+          }
+        }
+      },
+      "uarttx_0": {
+        "vlnv": "xilinx.com:module_ref:uarttx:1.0",
+        "xci_name": "uartsys_uarttx_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "uarttx",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              },
+              "FREQ_HZ": {
+                "value": "50000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_HIGH",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "tx_start": {
+            "direction": "I"
+          },
+          "s_tick": {
+            "direction": "I"
+          },
+          "tx_done": {
+            "direction": "O"
+          },
+          "din": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "tx": {
+            "direction": "O"
+          }
+        }
+      },
+      "baudios_0": {
+        "vlnv": "xilinx.com:module_ref:baudios:1.0",
+        "xci_name": "uartsys_baudios_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "baudios",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              },
+              "FREQ_HZ": {
+                "value": "50000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_HIGH",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "tick": {
+            "direction": "O"
+          }
+        }
+      },
+      "fifo_generator_0": {
+        "vlnv": "xilinx.com:ip:fifo_generator:13.2",
+        "xci_name": "uartsys_fifo_generator_0_0",
+        "parameters": {
+          "Fifo_Implementation": {
+            "value": "Common_Clock_Builtin_FIFO"
+          },
+          "Input_Data_Width": {
+            "value": "8"
+          },
+          "Input_Depth": {
+            "value": "512"
+          }
+        }
+      },
+      "fifo_generator_1": {
+        "vlnv": "xilinx.com:ip:fifo_generator:13.2",
+        "xci_name": "uartsys_fifo_generator_0_1",
+        "parameters": {
+          "Fifo_Implementation": {
+            "value": "Common_Clock_Builtin_FIFO"
+          },
+          "Input_Data_Width": {
+            "value": "8"
+          },
+          "Input_Depth": {
+            "value": "512"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_0_1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "uartrx_0/clk",
+          "uarttx_0/clk",
+          "baudios_0/clk",
+          "fifo_generator_0/clk",
+          "fifo_generator_1/clk"
+        ]
+      },
+      "reset_0_1": {
+        "ports": [
+          "reset",
+          "uartrx_0/reset",
+          "uarttx_0/reset",
+          "baudios_0/reset",
+          "fifo_generator_0/rst",
+          "fifo_generator_1/rst"
+        ]
+      },
+      "rx_0_1": {
+        "ports": [
+          "rx_0",
+          "uartrx_0/rx"
+        ]
+      },
+      "baudios_0_tick": {
+        "ports": [
+          "baudios_0/tick",
+          "uartrx_0/s_tick",
+          "uarttx_0/s_tick"
+        ]
+      },
+      "sys_clock_0_1": {
+        "ports": [
+          "sys_clock_0",
+          "clk_wiz_0/clk_in1"
+        ]
+      },
+      "uartrx_0_rx_done": {
+        "ports": [
+          "uartrx_0/rx_done",
+          "fifo_generator_0/wr_en"
+        ]
+      },
+      "uartrx_0_dout": {
+        "ports": [
+          "uartrx_0/dout",
+          "fifo_generator_0/din"
+        ]
+      },
+      "fifo_generator_0_full": {
+        "ports": [
+          "fifo_generator_0/full",
+          "full_0"
+        ]
+      },
+      "fifo_generator_0_empty": {
+        "ports": [
+          "fifo_generator_0/empty",
+          "empty_0"
+        ]
+      },
+      "fifo_generator_0_dout": {
+        "ports": [
+          "fifo_generator_0/dout",
+          "dout_0"
+        ]
+      },
+      "rd_en_0_1": {
+        "ports": [
+          "rd_en_0",
+          "fifo_generator_0/rd_en"
+        ]
+      },
+      "fifo_generator_1_dout": {
+        "ports": [
+          "fifo_generator_1/dout",
+          "uarttx_0/din"
+        ]
+      },
+      "uarttx_0_tx_done": {
+        "ports": [
+          "uarttx_0/tx_done",
+          "fifo_generator_1/rd_en"
+        ]
+      },
+      "uarttx_0_tx": {
+        "ports": [
+          "uarttx_0/tx",
+          "tx_0"
+        ]
+      },
+      "fifo_generator_1_full": {
+        "ports": [
+          "fifo_generator_1/full",
+          "full_1"
+        ]
+      },
+      "din_1_1": {
+        "ports": [
+          "din_1",
+          "fifo_generator_1/din"
+        ]
+      },
+      "wr_en_0_1": {
+        "ports": [
+          "wr_en_0",
+          "fifo_generator_1/wr_en"
+        ]
+      },
+      "fifo_generator_1_empty": {
+        "ports": [
+          "fifo_generator_1/empty",
+          "uarttx_0/tx_start"
+        ]
+      }
+    }
+  }
+}

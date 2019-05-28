@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="uartsys_wrapper_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="uartsys_wrapper" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="514120000001fs"></ZoomEndTime>
+      <Cursor1Time time="514120000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="114"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject type="logic" fp_name="/uartsys_wrapper/sys_clock">
+      <obj_property name="ElementShortName">sys_clock</obj_property>
+      <obj_property name="ObjectShortName">sys_clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uartsys_wrapper/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uartsys_wrapper/rx_0">
+      <obj_property name="ElementShortName">rx_0</obj_property>
+      <obj_property name="ObjectShortName">rx_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uartsys_wrapper/rx_done_0">
+      <obj_property name="ElementShortName">rx_done_0</obj_property>
+      <obj_property name="ObjectShortName">rx_done_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uartsys_wrapper/uartsys_i/baudios_0/tick">
+      <obj_property name="ElementShortName">tick</obj_property>
+      <obj_property name="ObjectShortName">tick</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/uartsys_wrapper/uartsys_i/uartrx_0/U0/state_reg">
+      <obj_property name="ElementShortName">state_reg</obj_property>
+      <obj_property name="ObjectShortName">state_reg</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uartsys_wrapper/uartsys_i/uartrx_0/U0/s_reg">
+      <obj_property name="ElementShortName">s_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_reg[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uartsys_wrapper/uartsys_i/uartrx_0/U0/n_reg">
+      <obj_property name="ElementShortName">n_reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">n_reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uartsys_wrapper/uartsys_i/uartrx_0/U0/b_reg">
+      <obj_property name="ElementShortName">b_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b_reg[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uartsys_wrapper/dout_0">
+      <obj_property name="ElementShortName">dout_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_0[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

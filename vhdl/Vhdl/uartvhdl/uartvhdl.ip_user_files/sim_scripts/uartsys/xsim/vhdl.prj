@@ -1,0 +1,7 @@
+vhdl xil_defaultlib  \
+"../../../bd/uartsys/ip/uartsys_uartrx_0_0/sim/uartsys_uartrx_0_0.vhd" \
+"../../../bd/uartsys/ip/uartsys_baudios_0_0/sim/uartsys_baudios_0_0.vhd" \
+"../../../bd/uartsys/sim/uartsys.vhd" \
+"../../../bd/uartsys/ip/uartsys_uarttx_0_0/sim/uartsys_uarttx_0_0.vhd" \
+
+nosort

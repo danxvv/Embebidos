@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../uartvhdl.srcs/sources_1/bd/uartsys/ipshared/85a3" \
+"../../../../uartvhdl.ip_user_files/bd/uartsys/ip/uartsys_clk_wiz_0_0/uartsys_clk_wiz_0_0_clk_wiz.v" \
+"../../../../uartvhdl.ip_user_files/bd/uartsys/ip/uartsys_clk_wiz_0_0/uartsys_clk_wiz_0_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

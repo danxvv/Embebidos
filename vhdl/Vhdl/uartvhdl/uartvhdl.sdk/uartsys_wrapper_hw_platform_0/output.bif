@@ -1,0 +1,5 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]/home/daniel/Documents/VHDL/uartvhdl/uartvhdl.sdk/uartsys_wrapper_hw_platform_0/uartsys_wrapper.bit
+}

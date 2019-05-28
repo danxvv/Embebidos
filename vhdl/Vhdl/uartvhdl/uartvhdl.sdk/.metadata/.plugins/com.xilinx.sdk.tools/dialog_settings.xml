@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="uartsys_wrapper_hw_platform_0" key="programflash.hwplatform"/>
+	<item value="false" key="uartsys_wrapper_hw_platform_0-verifyFlash"/>
+	<item value="" key="uartsys_wrapper_hw_platform_0-fsblFile"/>
+	<item value="qspi-x4-single" key="uartsys_wrapper_hw_platform_0-flashType"/>
+	<item value="" key="uartsys_wrapper_hw_platform_0-offSet"/>
+	<item value="" key="uartsys_wrapper_hw_platform_0-imgFile"/>
+	<item value="false" key="uartsys_wrapper_hw_platform_0-blankCheck"/>
+	<item value="Local" key="uartsys_wrapper_hw_platform_0-target"/>
+	<item value="Auto Detect" key="uartsys_wrapper_hw_platform_0-device"/>
+</section>
