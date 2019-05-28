@@ -1,0 +1,92 @@
+
+SET_MASK 	equ 	$00	
+;Etiquetas	instrucciones 	   operandos
+
+dulce     dsout   $00
+cambio	  dsout	  $02
+moneda    dsin	$01
+;Main	
+org	     $000
+
+cero:
+	 load	 s1, $00
+	 out	 s1, dulce
+	 in	 	 s0,moneda
+	 comp	 s0,$01
+	 jump	 z,cinco
+	 in	 	 s0,moneda
+	 comp	 s0,$02
+	 jump	 z,diez
+	 in	 	 s0,moneda
+	 comp	 s0,$04
+	 jump	 z,veinte5
+	 jump	 cero
+
+cinco:
+     in	 	 s0,moneda
+	 comp	 s0,$01
+	 jump	 z,diez
+	 in	 	 s0,moneda
+	 comp	 s0,$02
+	 jump	 z,quince
+	 in	 	 s0,moneda
+	 comp	 s0,$04
+	 jump	 z,treinta
+	 jump	 cinco
+diez:
+	 in	 	 s0,moneda
+	 comp	 s0,$01
+	 jump	 z,quince
+	 in	 	 s0,moneda
+	 comp	 s0,$02
+	 jump	 z,veinte
+	 in	 	 s0,moneda
+	 comp	 s0,$04
+	 jump	 z,treinta5
+	 jump	 diez
+quince:
+     in	 	 s0,moneda
+	 comp	 s0,$01
+	 jump	 z,veinte
+	 in	 	 s0,moneda
+	 comp	 s0,$02
+	 jump	 z,veinte5
+	 in	 	 s0,moneda
+	 comp	 s0,$04
+	 jump	 z,cuarenta
+	 jump	 quince
+veinte:
+     in	 	 s0,moneda
+	 comp	 s0,$01
+	 jump	 z,veinte5
+	 in	 	 s0,moneda
+	 comp	 s0,$02
+	 jump	 z,treinta
+	 in	 	 s0,moneda
+	 comp	 s0,$04
+	 jump	 z,cuarenta5
+	 jump	 veinte
+veinte5:
+	 load	 s1,$01
+	 out	 s1,dulce
+	 jump	 cero	
+treinta:
+	 load	 s2,$01
+	 out	 s2,cambio
+	 load	 s1,$01
+	 out	 s1,dulce
+	 jump	 cero
+treinta5:
+     load	 s2,$02
+	 out	 s2,cambio
+	 load	 s1,$01
+	 out	 s1,dulce
+	 jump	 cero
+cuarenta:
+	 load	 s2,$01
+	 out	 s2,cambio
+	 jump	 treinta
+cuarenta5:
+	 load 	 s2,$02
+	 out	 s2,cambio
+	 jump	 treinta5
