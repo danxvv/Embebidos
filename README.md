@@ -1,4 +1,4 @@
-# Embebidos
+# Sistemas Embebidos
 
 Repositorio con contendio variado en temas de sistemas embebidos.
 
