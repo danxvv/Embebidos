@@ -1,0 +1,25 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port echo_0 -pg 1 -y 180 -defaultsOSRD
+preplace port sys_clock -pg 1 -y 0 -defaultsOSRD
+preplace port reset_0 -pg 1 -y -20 -defaultsOSRD
+preplace port salida_0 -pg 1 -y 150 -defaultsOSRD
+preplace port trigger_0 -pg 1 -y 170 -defaultsOSRD
+preplace inst pwmled_0 -pg 1 -lvl 2 -y 260 -defaultsOSRD
+preplace inst main_0 -pg 1 -lvl 1 -y 260 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y -10 -defaultsOSRD
+preplace netloc main_0_cent 1 1 1 250
+preplace netloc clk_0_1 1 0 2 30J 180 270
+preplace netloc sys_clock_1 1 0 1 NJ
+preplace netloc main_0_trigger 1 1 4 260J 170 NJ 170 N 170 N
+preplace netloc echo_0_1 1 0 1 10J
+preplace netloc pwmled_0_salida 1 2 3 560 150 N 150 N
+preplace netloc reset_0_1 1 0 2 20 340 270
+levelinfo -pg 1 -10 140 450 660 710 750 -top -80 -bot 360
+"
+}
+{
+   "da_clkrst_cnt":"1"
+}

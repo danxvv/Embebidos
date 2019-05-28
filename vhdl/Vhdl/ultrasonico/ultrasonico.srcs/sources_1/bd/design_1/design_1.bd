@@ -1,0 +1,227 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x85EED2BE2E675A72",
+      "device": "xc7z020clg400-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "main_0": "",
+      "pwmled_0": "",
+      "clk_wiz_0": ""
+    },
+    "ports": {
+      "echo_0": {
+        "direction": "I"
+      },
+      "trigger_0": {
+        "direction": "O"
+      },
+      "salida_0": {
+        "direction": "O"
+      },
+      "sys_clock": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_sys_clock",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "125000000"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000"
+          }
+        }
+      },
+      "reset_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      }
+    },
+    "components": {
+      "main_0": {
+        "vlnv": "xilinx.com:module_ref:main:1.0",
+        "xci_name": "design_1_main_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "main",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_HIGH",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "echo": {
+            "direction": "I"
+          },
+          "cent": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "trigger": {
+            "direction": "O"
+          }
+        }
+      },
+      "pwmled_0": {
+        "vlnv": "xilinx.com:module_ref:pwmled:1.0",
+        "xci_name": "design_1_pwmled_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "pwmled",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_HIGH",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "duty": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "salida": {
+            "direction": "O"
+          }
+        }
+      },
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "design_1_clk_wiz_0_0",
+        "parameters": {
+          "CLK_IN1_BOARD_INTERFACE": {
+            "value": "sys_clock"
+          },
+          "USE_BOARD_FLOW": {
+            "value": "true"
+          }
+        }
+      }
+    },
+    "nets": {
+      "main_0_cent": {
+        "ports": [
+          "main_0/cent",
+          "pwmled_0/duty"
+        ]
+      },
+      "echo_0_1": {
+        "ports": [
+          "echo_0",
+          "main_0/echo"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "main_0/clk",
+          "pwmled_0/clk"
+        ]
+      },
+      "main_0_trigger": {
+        "ports": [
+          "main_0/trigger",
+          "trigger_0"
+        ]
+      },
+      "pwmled_0_salida": {
+        "ports": [
+          "pwmled_0/salida",
+          "salida_0"
+        ]
+      },
+      "sys_clock_1": {
+        "ports": [
+          "sys_clock",
+          "clk_wiz_0/clk_in1"
+        ]
+      },
+      "reset_0_1": {
+        "ports": [
+          "reset_0",
+          "clk_wiz_0/reset",
+          "main_0/reset",
+          "pwmled_0/reset"
+        ]
+      }
+    }
+  }
+}
